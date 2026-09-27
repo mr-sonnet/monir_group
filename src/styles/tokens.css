@@ -1,0 +1,15 @@
+:root {
+  --ink: #142e28;
+  --forest: #143d31;
+  --deep: #0c251e;
+  --green: #2c8138;
+  --gold: #f2ca39;
+  --paper: #f7f8f3;
+  --white: #fff;
+  --muted: #52635c;
+  --line: #d7ddd6;
+  --radius: 4px;
+  --max: 1320px;
+  --space: clamp(24px, 5vw, 80px);
+  --font: Arial, Helvetica, sans-serif;
+}

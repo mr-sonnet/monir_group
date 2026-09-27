@@ -1,0 +1,114 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Intro from '../../components/Intro.astro';
+import CTA from '../../components/CTA.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import products from '../../content/products/catalog.json';
+import categories from '../../data/categories.json';
+---
+
+<Layout
+  title="Products"
+  description="Browse feed ingredients, grains, flour, pulses, additives and minerals in Monir Group’s product catalog."
+  ><Intro
+    eyebrow="PRODUCT CATALOG"
+    title="Materials for your next requirement."
+    description="Browse the product range listed by Monir Group. Grade, origin, packaging and availability can vary. Tell us what you need to discuss the relevant specifications."
+  />
+  <section class="section tight">
+    <div class="wrap">
+      <noscript
+        ><p class="no-js">
+          All products are listed below. Enable JavaScript to use search and
+          category filters.
+        </p></noscript
+      ><div class="catalog-tools">
+        <div class="field">
+          <label for="search">Search products</label><input
+            id="search"
+            type="search"
+            placeholder="Try maize, fish meal, soybean meal or DCP"
+            autocomplete="off"
+          />
+        </div><div class="field">
+          <label for="category">Category</label><select id="category"
+            ><option value="all">All categories</option>{
+              categories.map((c) => <option value={c.id}>{c.name}</option>)
+            }</select>
+        </div>
+      </div><div class="catalog-status">
+        <span id="result-count" role="status" aria-live="polite"
+          >Showing all {products.length} products</span
+        ><button class="search-clear" id="clear-filters" type="button" hidden
+          >Clear filters</button>
+      </div><div class="catalog-grid">
+        {products.map((p, i) => <ProductCard product={p} index={i} />)}
+      </div><div class="empty" id="empty-state" hidden>
+        <h2>No matching products.</h2><p>
+          We couldn’t find a match. Send us your requirement and we’ll check
+          with the team.
+        </p><a class="btn dark" href="/contact/">Ask about a material ↗</a>
+      </div><p class="detail-note">
+        Products are listed for inquiry. No grade, stock level or price is
+        implied. Similar local names are kept separately until confirmed.
+      </p>
+    </div>
+  </section><CTA />
+  <script>
+    const search = document.querySelector<HTMLInputElement>('#search')!;
+    const category = document.querySelector<HTMLSelectElement>('#category')!;
+    const cards = [...document.querySelectorAll<HTMLElement>('[data-product]')];
+    const clear = document.querySelector<HTMLButtonElement>('#clear-filters')!;
+    function normalize(s: string) {
+      return s
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, ' ')
+        .trim();
+    }
+    function apply(update = true) {
+      const query = normalize(search.value);
+      let count = 0;
+      cards.forEach((card) => {
+        const visible =
+          (category.value === 'all' ||
+            card.dataset.category === category.value) &&
+          normalize(card.dataset.search || '').includes(query);
+        card.hidden = !visible;
+        if (visible) count++;
+      });
+      document.querySelector('#result-count')!.textContent =
+        `Showing ${count} of ${cards.length} products`;
+      document.querySelector<HTMLElement>('#empty-state')!.hidden = count > 0;
+      clear.hidden = !search.value && category.value === 'all';
+      if (update) {
+        const u = new URL(location.href);
+        search.value
+          ? u.searchParams.set('q', search.value)
+          : u.searchParams.delete('q');
+        category.value !== 'all'
+          ? u.searchParams.set('category', category.value)
+          : u.searchParams.delete('category');
+        history.replaceState(null, '', u);
+      }
+    }
+    function fromURL() {
+      const params = new URLSearchParams(location.search);
+      search.value = params.get('q') || '';
+      const value = params.get('category') || 'all';
+      category.value = [...category.options].some((o) => o.value === value)
+        ? value
+        : 'all';
+      apply(false);
+    }
+    fromURL();
+    search.addEventListener('input', () => apply());
+    category.addEventListener('change', () => apply());
+    clear.addEventListener('click', () => {
+      search.value = '';
+      category.value = 'all';
+      apply();
+      search.focus();
+    });
+    window.addEventListener('popstate', fromURL);
+  </script></Layout
+>

@@ -1,0 +1,787 @@
+[
+  {
+    "url": "https://monirgroupbd.com/wp-json/wp/v2/media?per_page=100&page=1",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-json/wp/v2/media?per_page=100&page=1"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-json/wp/v2/media?per_page=100&page=2",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-json/wp/v2/media?per_page=100&page=2"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-json/wp/v2/media?per_page=100&page=3",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-json/wp/v2/media?per_page=100&page=3"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-json/wp/v2/media?per_page=100&page=4",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-json/wp/v2/media?per_page=100&page=4"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-json/wp/v2/pages?per_page=100&page=1",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-json/wp/v2/pages?per_page=100&page=1"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-json/wp/v2/posts?per_page=100&page=1",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-json/wp/v2/posts?per_page=100&page=1"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-json/wp/v2/product?per_page=100&page=1",
+    "status": 404,
+    "final": "https://monirgroupbd.com/wp-json/wp/v2/product?per_page=100&page=1"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-sitemap.xml",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-sitemap.xml"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-sitemap-posts-post-1.xml",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-sitemap-posts-post-1.xml"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-sitemap-posts-page-1.xml",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-sitemap-posts-page-1.xml"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-sitemap-posts-portfolio-1.xml",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-sitemap-posts-portfolio-1.xml"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-sitemap-posts-gva__template-1.xml",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-sitemap-posts-gva__template-1.xml"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-sitemap-taxonomies-category-1.xml",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-sitemap-taxonomies-category-1.xml"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-sitemap-taxonomies-category_portfolio-1.xml",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-sitemap-taxonomies-category_portfolio-1.xml"
+  },
+  {
+    "url": "https://monirgroupbd.com/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/"
+  },
+  {
+    "url": "https://monirgroupbd.com/sister-concerns/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/sister-concerns/"
+  },
+  {
+    "url": "https://monirgroupbd.com/products/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/products/"
+  },
+  {
+    "url": "https://monirgroupbd.com/contact/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/contact/"
+  },
+  {
+    "url": "https://monirgroupbd.com/monir-poultry-feed-industries-limited/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/monir-poultry-feed-industries-limited/"
+  },
+  {
+    "url": "https://monirgroupbd.com/home-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/home-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/home-3/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/home-3/"
+  },
+  {
+    "url": "https://monirgroupbd.com/contact-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/contact-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/contact-us/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/contact-us/"
+  },
+  {
+    "url": "https://monirgroupbd.com/about-us/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/about-us/"
+  },
+  {
+    "url": "https://monirgroupbd.com/our-services/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/our-services/"
+  },
+  {
+    "url": "https://monirgroupbd.com/shop-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/shop-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/my-account/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/my-account/"
+  },
+  {
+    "url": "https://monirgroupbd.com/checkout/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/checkout/"
+  },
+  {
+    "url": "https://monirgroupbd.com/cart/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/cart/"
+  },
+  {
+    "url": "https://monirgroupbd.com/shop/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/shop/"
+  },
+  {
+    "url": "https://monirgroupbd.com/sample-page/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/sample-page/"
+  },
+  {
+    "url": "https://monirgroupbd.com/service-3/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/service-3/"
+  },
+  {
+    "url": "https://monirgroupbd.com/services/planet-earth-safety/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/services/planet-earth-safety/"
+  },
+  {
+    "url": "https://monirgroupbd.com/services/organic-fresh-fruits/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/services/organic-fresh-fruits/"
+  },
+  {
+    "url": "https://monirgroupbd.com/services/fresh-pond-sea-fish/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/services/fresh-pond-sea-fish/"
+  },
+  {
+    "url": "https://monirgroupbd.com/services/fresh-wheat-sack-food/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/services/fresh-wheat-sack-food/"
+  },
+  {
+    "url": "https://monirgroupbd.com/portfolio-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/portfolio-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/about-me/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/about-me/"
+  },
+  {
+    "url": "https://monirgroupbd.com/services/cows-meat-and-milk/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/services/cows-meat-and-milk/"
+  },
+  {
+    "url": "https://monirgroupbd.com/services/fresh-organic-vegetable/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/services/fresh-organic-vegetable/"
+  },
+  {
+    "url": "https://monirgroupbd.com/portfolio/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/portfolio/"
+  },
+  {
+    "url": "https://monirgroupbd.com/our-awards/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/our-awards/"
+  },
+  {
+    "url": "https://monirgroupbd.com/farmers/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/farmers/"
+  },
+  {
+    "url": "https://monirgroupbd.com/testimonials/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/testimonials/"
+  },
+  {
+    "url": "https://monirgroupbd.com/services/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/services/"
+  },
+  {
+    "url": "https://monirgroupbd.com/pricing/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/pricing/"
+  },
+  {
+    "url": "https://monirgroupbd.com/our-partner/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/our-partner/"
+  },
+  {
+    "url": "https://monirgroupbd.com/careers/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/careers/"
+  },
+  {
+    "url": "https://monirgroupbd.com/events-page/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/events-page/"
+  },
+  {
+    "url": "https://monirgroupbd.com/service-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/service-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/home-4/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/home-4/"
+  },
+  {
+    "url": "https://monirgroupbd.com/news-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/news-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/news/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/news/"
+  },
+  {
+    "url": "https://monirgroupbd.com/faqs/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/faqs/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gallery/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gallery/"
+  },
+  {
+    "url": "https://monirgroupbd.com/my-account-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/my-account-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/checkout-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/checkout-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/cart-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/cart-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/portfolio-3/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/portfolio-3/"
+  },
+  {
+    "url": "https://monirgroupbd.com/blog-standard/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/blog-standard/"
+  },
+  {
+    "url": "https://monirgroupbd.com/team-of-experts/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/team-of-experts/"
+  },
+  {
+    "url": "https://monirgroupbd.com/our-clients/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/our-clients/"
+  },
+  {
+    "url": "https://monirgroupbd.com/72-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/72-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/home/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/home/"
+  },
+  {
+    "url": "https://monirgroupbd.com/2024/01/27/high-quality-maize-any-time-delivery-of-our-godown-in-gazipur/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/2024/01/27/high-quality-maize-any-time-delivery-of-our-godown-in-gazipur/"
+  },
+  {
+    "url": "https://monirgroupbd.com/2024/01/27/high-quality-fishh-meal-any-time-delivery-of-our-godown-in-gazipur/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/2024/01/27/high-quality-fishh-meal-any-time-delivery-of-our-godown-in-gazipur/"
+  },
+  {
+    "url": "https://monirgroupbd.com/2024/01/27/high-qualityhigh-protein-soya-mealcity-nabilany-time-delivery-of-our-godown-in-gazipur/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/2024/01/27/high-qualityhigh-protein-soya-mealcity-nabilany-time-delivery-of-our-godown-in-gazipur/"
+  },
+  {
+    "url": "https://monirgroupbd.com/case/golder-sunflower/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/case/golder-sunflower/"
+  },
+  {
+    "url": "https://monirgroupbd.com/case/organic-wheats/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/case/organic-wheats/"
+  },
+  {
+    "url": "https://monirgroupbd.com/case/fresh-wheat-food/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/case/fresh-wheat-food/"
+  },
+  {
+    "url": "https://monirgroupbd.com/case/fresh-organic-vegetable/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/case/fresh-organic-vegetable/"
+  },
+  {
+    "url": "https://monirgroupbd.com/case/golder-wheat/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/case/golder-wheat/"
+  },
+  {
+    "url": "https://monirgroupbd.com/case/organic-cow/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/case/organic-cow/"
+  },
+  {
+    "url": "https://monirgroupbd.com/case/organic-grap/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/case/organic-grap/"
+  },
+  {
+    "url": "https://monirgroupbd.com/case/fresh-chicken/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/case/fresh-chicken/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gva_template/new-header-layout/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gva_template/new-header-layout/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gva_template/new-footer-layout/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gva_template/new-footer-layout/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gva_template/new-page-layout/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gva_template/new-page-layout/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gva_template/new-post-single-template/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gva_template/new-post-single-template/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gva_template/crowdfunding-single-template/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gva_template/crowdfunding-single-template/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gva_template/page-layout-header-white-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gva_template/page-layout-header-white-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gva_template/crowdfunding-archive-template/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gva_template/crowdfunding-archive-template/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gva_template/header-white-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gva_template/header-white-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gva_template/new-page-layout-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gva_template/new-page-layout-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/gva_template/page-layout-header-transparent-2/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/gva_template/page-layout-header-transparent-2/"
+  },
+  {
+    "url": "https://monirgroupbd.com/category/uncategorized/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/category/uncategorized/"
+  },
+  {
+    "url": "https://monirgroupbd.com/category-portfolio/fruits/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/category-portfolio/fruits/"
+  },
+  {
+    "url": "https://monirgroupbd.com/category-portfolio/milk-meats/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/category-portfolio/milk-meats/"
+  },
+  {
+    "url": "https://monirgroupbd.com/category-portfolio/sea-fish/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/category-portfolio/sea-fish/"
+  },
+  {
+    "url": "https://monirgroupbd.com/category-portfolio/vegetables/",
+    "status": 200,
+    "final": "https://monirgroupbd.com/category-portfolio/vegetables/"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/8529f6c65ac9a3e41ceb853a1da2daaa.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/8529f6c65ac9a3e41ceb853a1da2daaa.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/2a10bef692f80a0c361eeb3318336c63.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/2a10bef692f80a0c361eeb3318336c63.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/fe342053a0f4955122ee85219fd8a751.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/fe342053a0f4955122ee85219fd8a751.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/c632c43b1f42ba0c526cd43fa57819e1.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/c632c43b1f42ba0c526cd43fa57819e1.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/ae627b41bf7586a89a26eac63c895fcb.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/ae627b41bf7586a89a26eac63c895fcb.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/7251adcdbd4a10dd27cffb28e6739611.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/7251adcdbd4a10dd27cffb28e6739611.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/6092cf60fe8d6310aa9aa540e6d47d37.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/6092cf60fe8d6310aa9aa540e6d47d37.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/c86d042ede4358547b512b2b63c183d3.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/c86d042ede4358547b512b2b63c183d3.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/a2f50a3d5f6322dce0e76eaa489c2cf1.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/a2f50a3d5f6322dce0e76eaa489c2cf1.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/d5df7544876ed5329e3944c3d35f3b84.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/d5df7544876ed5329e3944c3d35f3b84.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/2070634fee64c219dbff4bd91b026262.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/2070634fee64c219dbff4bd91b026262.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/ef542f3613e1d17c74da88e426b536d1.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/ef542f3613e1d17c74da88e426b536d1.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/16c76036dd9c79e4304293b6003fc574.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/16c76036dd9c79e4304293b6003fc574.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/13727eec290b6ebdcc82107d321aa1ad.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/13727eec290b6ebdcc82107d321aa1ad.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/3b15bb5fcae08bd6c27d84bc191e27f6.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/3b15bb5fcae08bd6c27d84bc191e27f6.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/cc6f6d6bb0dff0bb117eb62aa32f5a18.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/cc6f6d6bb0dff0bb117eb62aa32f5a18.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/b547a28a432fbbe4bf28f3341f157e78.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/b547a28a432fbbe4bf28f3341f157e78.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/4c13438e4dacb4379bd563ee9dfd60fa.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/4c13438e4dacb4379bd563ee9dfd60fa.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/e34d333391c6c6256fad9a1533bd26a1.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/e34d333391c6c6256fad9a1533bd26a1.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/6ea9c19a4d19b2f0f7a003127b606043.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/6ea9c19a4d19b2f0f7a003127b606043.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/089c7f02fb5d69d98f46f0800d226174.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/089c7f02fb5d69d98f46f0800d226174.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/fa0b1e1a7d943e283832c1462ee9aef5.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/fa0b1e1a7d943e283832c1462ee9aef5.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/f95cd99b04a6ab10625612b3b29c3e9d.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/f95cd99b04a6ab10625612b3b29c3e9d.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/17a7698ba2011722b8cf984262374bd4.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/17a7698ba2011722b8cf984262374bd4.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/1c8b421180289b0090fa2add87e6de41.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/1c8b421180289b0090fa2add87e6de41.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/16baa2a0b81124c7ebac1e57447a574a.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/16baa2a0b81124c7ebac1e57447a574a.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/52667f25047f7a5583a3fb21f8b39458.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/52667f25047f7a5583a3fb21f8b39458.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/a163755bf67301b39ea4a860b253a67c.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/a163755bf67301b39ea4a860b253a67c.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/885fdcd1b7d52db904fa604925b97955.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/885fdcd1b7d52db904fa604925b97955.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/b4760e9687c5eea20aa7dab72038d173.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/b4760e9687c5eea20aa7dab72038d173.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/d44505d5af4897f40bcc6fddae92998d.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/d44505d5af4897f40bcc6fddae92998d.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/2db7eda8a90eebdb9e928544cbf96ee8.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/2db7eda8a90eebdb9e928544cbf96ee8.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/06654a0e8e93ba76847e4916f9544de1.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/06654a0e8e93ba76847e4916f9544de1.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/870cfe78c01e3a5b71a294602d83a563.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/870cfe78c01e3a5b71a294602d83a563.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/cea47fff8bb4c206cac5bb584f9c60d0.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/cea47fff8bb4c206cac5bb584f9c60d0.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/36ab3fef2028d345ce6379194b00ccdf.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/36ab3fef2028d345ce6379194b00ccdf.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/befa613873c8fbd76d3133ae5e4731b4.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/befa613873c8fbd76d3133ae5e4731b4.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/43fb4c8e749dbbe1f7b85b8e6d69062e.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/43fb4c8e749dbbe1f7b85b8e6d69062e.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/2a46cfe9f475f26a70561d3ab7dddbd6.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/2a46cfe9f475f26a70561d3ab7dddbd6.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/5c31f6a306e010800ac9dd6b8f2be183.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/5c31f6a306e010800ac9dd6b8f2be183.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/69e484d5df660ecc9dcb3fd3b423360e.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/69e484d5df660ecc9dcb3fd3b423360e.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/0cdab7ea7069f0a0f2b3e0ce6f0c3a42.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/0cdab7ea7069f0a0f2b3e0ce6f0c3a42.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/2a87c382175768f8bbb173642172d319.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/2a87c382175768f8bbb173642172d319.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/bd0a0eaf80882aaa647ac0554496efe9.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/bd0a0eaf80882aaa647ac0554496efe9.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/6d9113fe6e4c78f99605804b855902f2.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/6d9113fe6e4c78f99605804b855902f2.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/64a5ff3e40917497123ccac5d6f343df.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/64a5ff3e40917497123ccac5d6f343df.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/89ff39248629a58d9524015f2b928c0c.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/89ff39248629a58d9524015f2b928c0c.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/03b7cbefcc9fd93b573f246610c98f2d.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/03b7cbefcc9fd93b573f246610c98f2d.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/5c0c86491b36df5279785b89750cc1b2.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/5c0c86491b36df5279785b89750cc1b2.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/ee0e180622e0b5e3afcb623c5752769c.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/ee0e180622e0b5e3afcb623c5752769c.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/7dae759b77c0cac925312b8370162f2b.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/7dae759b77c0cac925312b8370162f2b.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/344180aef4fdd4d12b201e402c0bed5e.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/344180aef4fdd4d12b201e402c0bed5e.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/b8e72d3987bd16e07698b2790e791ff2.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/b8e72d3987bd16e07698b2790e791ff2.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/6d79021437a79f028ef580877e32c004.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/6d79021437a79f028ef580877e32c004.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/f5be0bddb39db5c8aa74ae40c00d77f2.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/f5be0bddb39db5c8aa74ae40c00d77f2.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/bd230c4646d8ddf7bfb34dba5e96794a.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/bd230c4646d8ddf7bfb34dba5e96794a.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/9f063c9b4644f32a1950cfcb98f44240.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/9f063c9b4644f32a1950cfcb98f44240.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/2fcbb1015e7a366cb70620cfe085fcb3.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/2fcbb1015e7a366cb70620cfe085fcb3.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/4902b24e70d1c6ee69ff218bd363c9f3.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/4902b24e70d1c6ee69ff218bd363c9f3.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/7798b9335cea66b483bc655587a272a9.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/7798b9335cea66b483bc655587a272a9.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/9177720c134050aba1fb4a4cd68b7505.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/9177720c134050aba1fb4a4cd68b7505.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/07cfa51429a6c9023d8100dacc69fd33.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/07cfa51429a6c9023d8100dacc69fd33.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/6c67677406dc920f2eb8b3b6729e492c.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/6c67677406dc920f2eb8b3b6729e492c.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/ada0b6a7ce4d814cc34f0d4cdc5b98a4.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/ada0b6a7ce4d814cc34f0d4cdc5b98a4.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/a9aa7b97a7ecbec99d2400b853807c5d.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/a9aa7b97a7ecbec99d2400b853807c5d.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/css/ce4f4d80a8e552931813edb83f0f004b.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/css/ce4f4d80a8e552931813edb83f0f004b.css?ver=0932b"
+  },
+  {
+    "url": "https://monirgroupbd.com/wp-content/litespeed/ucss/0776ea81381aee8d80fce58ca4f4c655.css?ver=0932b",
+    "status": 200,
+    "final": "https://monirgroupbd.com/wp-content/litespeed/ucss/0776ea81381aee8d80fce58ca4f4c655.css?ver=0932b"
+  }
+]

@@ -1,0 +1,109 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Intro from '../components/Intro.astro';
+import CTA from '../components/CTA.astro';
+import { company } from '../data/company';
+---
+
+<Layout
+  title="About"
+  description="Meet Monir Group, a Bangladesh-based group of trading and feed-related businesses."
+  ><Intro
+    eyebrow="ABOUT MONIR GROUP"
+    title="Rooted in trade. Focused on what comes next."
+    description="A Bangladesh-based group bringing together trading and feed-related businesses, with a broad product range for business buyers."
+  />
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">OUR STORY</p><h2>
+          From business needs<br />to supply conversations.
+        </h2>
+      </div><div>
+        <p class="lead">
+          Monir Group’s current company profile states that operations began in
+          2005. Today, its portfolio spans maize, soybean products, fish meal,
+          feed additives, grains, flours, rice and pulses.
+        </p><p class="muted">
+          The group’s published footprint includes offices in Gazipur, Dinajpur
+          and Jamalpur, and a warehouse in Gazipur. Its concerns bring together
+          trading and feed-related activity.
+        </p><a class="text-link" href="/sister-concerns/"
+          >Explore the group’s businesses ↗</a>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="approach" style="background:#e9eee5">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">OUR APPROACH</p><h2>
+            Clarity at every starting point.
+          </h2>
+        </div><p class="muted">
+          Business buyers need clarity about the materials they are sourcing.
+        </p>
+      </div><div class="value-grid">
+        <div class="value">
+          <span class="editorial-label">01 / UNDERSTAND</span><h3>
+            Start with the requirement
+          </h3><p>
+            A specific product, intended use and required quantity give the
+            conversation a useful foundation.
+          </p>
+        </div><div class="value">
+          <span class="editorial-label">02 / DISCUSS</span><h3>
+            Make the details explicit
+          </h3><p>
+            Grade, origin, packaging and logistics belong in the inquiry. They
+            can vary by requirement.
+          </p>
+        </div><div class="value">
+          <span class="editorial-label">03 / CONNECT</span><h3>
+            Keep contact straightforward
+          </h3><p>
+            Use the product catalog to frame an inquiry, or speak with the group
+            directly by phone or email.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="leadership">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">LEADERSHIP</p><h2>
+          The people behind<br />Monir Group.
+        </h2><p class="muted">
+          Leadership names and roles are presented as listed in the current
+          company profile.
+        </p><p class="notice">
+          This private review uses existing-site portraits. Current titles and
+          permission for reuse remain subject to owner confirmation.
+        </p>
+      </div><div class="leaders">
+        {
+          company.leaders.map((l) => (
+            <figure class="leader">
+              <>
+                <img
+                  src={l.image}
+                  width="450"
+                  height="567"
+                  alt={l.name}
+                  loading="lazy"
+                />
+                <figcaption>
+                  <>
+                    <h3>{l.name}</h3>
+                    <p>{l.title}</p>
+                  </>
+                </figcaption>
+              </>
+            </figure>
+          ))
+        }
+      </div>
+    </div>
+  </section><CTA /></Layout
+>

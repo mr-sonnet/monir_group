@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.astro/
+.sites-runtime/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+*.tar.gz
+*.log
+audit/media-originals/
+audit/html/
+audit/media-api-*.json
+audit/pages-*.json
+audit/posts-*.json

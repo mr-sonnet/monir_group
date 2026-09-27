@@ -1,0 +1,22 @@
+[
+  {
+    "id": "feed-ingredients",
+    "name": "Feed ingredients",
+    "description": "Grains, meals & by-products"
+  },
+  {
+    "id": "grains-commodities",
+    "name": "Grains & commodities",
+    "description": "Rice, flour & everyday materials"
+  },
+  {
+    "id": "additives-minerals",
+    "name": "Additives & minerals",
+    "description": "Nutritional inputs for feed production"
+  },
+  {
+    "id": "pulses",
+    "name": "Pulses & by-products",
+    "description": "Pulses, husks & bran"
+  }
+]

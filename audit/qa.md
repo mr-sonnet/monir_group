@@ -1,0 +1,27 @@
+# QA — 27 September 2026
+
+## Completed
+
+- Custom Astro 7.3.5 / TypeScript 6.0.3 static build; pinned package lock. Astro check: zero errors, warnings or hints. Dependency installation audit: zero known vulnerabilities reported.
+- 55 live catalog labels reconciled with the source; ten group names; ten noindex priority product pages; seven core pages and a branded 404. Seven equivalent legacy URL redirects are configured; other audited demo URLs return 404 in the new project.
+- **24 Playwright tests passed** on the local production build: Chromium desktop, Microsoft Edge desktop and Chromium mobile emulation (390 × 844). Tablet width 820 px and enlarged root text checks passed.
+- Search by product name, source spelling and DCP alias; category URL persistence; empty state; clearing filters; product-aware quote URLs.
+- Inquiry validation: contact name, one contact method, product or message, consent, email formatting, phone formatting, preferred reply consistency. Optional quantity/location do not block valid inquiries.
+- Demo completion explicitly says **not sent**; summary preserves selected product/contact; offline error retains entries; honeypot rejects; untrusted text is inserted using textContent.
+- Keyboard skip link, visible focus, mobile menu/Escape, one H1, no horizontal overflow, lazy image loading, no client exceptions in checked core pages.
+- Axe WCAG A/AA automation: no reported violations on Home, Products and Contact in all three browser profiles. This is not a full accessibility certification.
+- **540 generated internal link/asset references checked, zero broken.** Build includes four selected local visual assets totaling 107,912 bytes; no external media hotlinks. Excluded stock and theme assets are archived outside public output.
+- Final desktop/mobile screenshots inspected. Existing-site desktop/mobile baseline screenshots captured read-only. The low-contrast hero outline button was corrected; the development toolbar is disabled.
+
+## Performance observations
+
+Single unthrottled Chromium runs on localhost, static production preview: desktop LCP 84 ms, mobile-emulated LCP 68 ms, observed CLS 0 for both. These are local diagnostic measurements, not real-user Core Web Vitals or a deployed performance score. No INP claim. Build JavaScript totals approximately 5 KB raw / 2.1 KB gzip; CSS approximately 14.4 KB raw / 3.9 KB gzip. See `build-verification.json` for exact values and conditions.
+
+## Limits and pre-launch requirements
+
+- Firefox downloaded but could not launch (`spawn UNKNOWN`); Edge was used for the additional browser run. Both successful desktop browsers use Chromium; Safari/WebKit and a real mobile device were not tested.
+- Form transport is **demo only**. No recipient/provider credentials exist; no real email/CRM delivery has been tested. No personal data is sent or stored by the demo. Production requires server-side validation, rate limiting, spam protection and confirmed delivery.
+- Hosting logs/access are provider-managed. Privacy language is review-stage and must be finalized with actual production providers and retention decisions.
+- Business identities, addresses, leadership, product nomenclature and media permissions need owner confirmation (`open-facts.md`). Third-party product artwork, stock/facility-like images, partner logos, invented metrics and claims are hidden.
+- All new pages are noindex; robots disallows crawling; sitemap has no approved public URLs. Private access is handled by the owner-only Sites deployment, rather than robots alone.
+- WordPress, current domain, DNS, production redirects and the existing sitemap were not modified. Private deployment status is verified separately by the Sites service.

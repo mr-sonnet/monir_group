@@ -1,0 +1,2 @@
+import {defineConfig,devices} from '@playwright/test';
+export default defineConfig({testDir:'./tests',timeout:45000,fullyParallel:true,workers:3,reporter:[['list'],['json',{outputFile:'audit/test-results.json'}]],use:{baseURL:'http://127.0.0.1:4321',trace:'retain-on-failure'},projects:[{name:'chromium',use:{...devices['Desktop Chrome']}},{name:'edge',use:{...devices['Desktop Edge'],channel:'msedge'}},{name:'mobile',use:{...devices['iPhone 13'],defaultBrowserType:'chromium'}}]});

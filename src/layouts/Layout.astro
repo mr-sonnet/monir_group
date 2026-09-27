@@ -1,0 +1,146 @@
+---
+import '../styles/global.css';
+import { company } from '../data/company';
+interface Props {
+  title: string;
+  description?: string;
+}
+const {
+  title,
+  description = 'Explore Monir Group’s range of feed ingredients, grains, nutritional inputs and commodities. Start a product inquiry with our team.',
+} = Astro.props;
+const links = [
+  ['Home', '/'],
+  ['About', '/about/'],
+  ['Businesses', '/sister-concerns/'],
+  ['Products', '/products/'],
+  ['Contact', '/contact/'],
+];
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head
+    ><meta charset="UTF-8" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    /><title>{title} | Monir Group</title><meta
+      name="description"
+      content={description}
+    /><meta name="robots" content="noindex, nofollow, noarchive" /><link
+      rel="canonical"
+      href={canonical}
+    /><meta property="og:title" content={`${title} | Monir Group`} /><meta
+      property="og:description"
+      content={description}
+    /><meta property="og:type" content="website" /><meta
+      property="og:url"
+      content={canonical}
+    /><meta name="theme-color" content="#143d31" /><link
+      rel="icon"
+      type="image/png"
+      href="/media/monir-group/cropped-Monir-Group-logo-32x32.png"
+    /></head
+  ><body>
+    <a class="skip" href="#main">Skip to content</a><div class="review-bar">
+      PRIVATE WEBSITE REVIEW · Company details subject to confirmation · Quote
+      form in demo mode
+    </div>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/" aria-label="Monir Group home"
+          ><img src={company.logo} width="44" height="44" alt="" /><span
+            class="brand-name">MONIR GROUP<small>BANGLADESH</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          >Menu <span aria-hidden="true">☰</span></button
+        ><nav class="nav" id="main-nav" aria-label="Main navigation">
+          {
+            links.map(([label, href]) => (
+              <a
+                href={href}
+                aria-current={Astro.url.pathname === href ? 'page' : undefined}
+              >
+                {label}
+              </a>
+            ))
+          }
+        </nav><a class="btn dark" href="/contact/"
+          >Request a Quote <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <a class="brand" href="/"
+              ><img src={company.logo} width="44" height="44" alt="" /><span
+                class="brand-name">MONIR GROUP<small>BANGLADESH</small></span
+              ></a
+            ><p>
+              Feed ingredients, agricultural commodities and nutritional inputs
+              for business buyers.
+            </p>
+          </div><div>
+            <h3>Explore the group</h3><div class="footer-links">
+              {
+                links
+                  .slice(1)
+                  .map(([label, href]) => <a href={href}>{label}</a>)
+              }<a href="/about/#approach">Our approach</a>
+            </div>
+          </div><div>
+            <h3>Start a conversation</h3><div class="footer-links">
+              <a data-event="phone_click" href={company.phone.href}
+                >{company.phone.display}</a
+              ><a
+                data-event="email_click"
+                class="quote-email"
+                href={`mailto:${company.email.value}`}>{company.email.value}</a
+              ><a href="/contact/#locations">Offices & warehouse</a>
+            </div>
+          </div>
+        </div><div class="footer-bottom">
+          <span>© {new Date().getFullYear()} Monir Group</span><span
+            >Private review · Bangladesh</span
+          ><a href="/privacy-policy/">Privacy & data use</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+      const nav = document.querySelector<HTMLElement>('#main-nav');
+      toggle?.addEventListener('click', () => {
+        const open = toggle.getAttribute('aria-expanded') !== 'true';
+        toggle.setAttribute('aria-expanded', String(open));
+        nav?.classList.toggle('open', open);
+      });
+      document.addEventListener('keydown', (e) => {
+        if (
+          e.key === 'Escape' &&
+          toggle?.getAttribute('aria-expanded') === 'true'
+        ) {
+          toggle.setAttribute('aria-expanded', 'false');
+          nav?.classList.remove('open');
+          toggle.focus();
+        }
+      });
+      document
+        .querySelectorAll<HTMLAnchorElement>('[data-event]')
+        .forEach((a) =>
+          a.addEventListener('click', () =>
+            window.dispatchEvent(
+              new CustomEvent('monir:analytics', {
+                detail: { event: a.dataset.event },
+              }),
+            ),
+          ),
+        );
+    </script></body>
+</html>

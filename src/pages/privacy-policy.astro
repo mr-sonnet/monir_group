@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Intro from '../components/Intro.astro';
+import { company } from '../data/company';
+---
+
+<Layout title="Privacy & data use"
+  ><Intro
+    eyebrow="PRIVATE REVIEW"
+    title="Privacy & data use."
+    description="This notice describes the private website review and its demo inquiry form."
+  /><section class="section">
+    <div class="wrap article">
+      <p class="notice">
+        Review-stage notice · 27 September 2026. Live inquiry delivery is
+        disabled.
+      </p><h2>Your inquiry information</h2><p>
+        The demo form lets you test an inquiry using sample details. Form
+        entries remain in the page’s memory and are not sent to Monir Group,
+        stored in a database, saved in browser storage or emailed. Reloading or
+        closing the page clears entered contact details.
+      </p><p>
+        The selected product is included in the page URL so a product inquiry
+        can be opened directly. Do not put personal or confidential information
+        in the product field or share URLs that contain it.
+      </p><h2>Hosting and access</h2><p>
+        This private preview is hosted through OpenAI Sites on Cloudflare
+        infrastructure. Access and ordinary hosting logs may be processed by
+        those providers under their respective terms. The local development
+        preview runs on the reviewer’s computer.
+      </p><h2>Measurement and external links</h2><p>
+        No advertising, tracking cookies or third-party analytics service has
+        been added to this website. Interaction events are available within the
+        page for future integration; they are not transmitted to an analytics
+        provider. Maps, phone and email links open the relevant external service
+        or application, whose own privacy practices apply.
+      </p><h2>Contacting the group directly</h2><p>
+        If you send an email or call, you share your details directly with the
+        recipient and your communication provider. For questions about
+        information shared directly with the group, contact <a
+          href={`mailto:${company.email.value}`}>{company.email.value}</a
+        >.
+      </p><h2>Before live inquiries are enabled</h2><p>
+        The group must confirm the responsible business entity, inquiry
+        recipient, delivery provider, purpose of processing, retention period,
+        deletion process and applicable privacy requirements. This notice will
+        need to be updated to reflect those choices before a public launch.
+      </p>
+    </div>
+  </section></Layout
+>

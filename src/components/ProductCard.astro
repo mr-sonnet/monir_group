@@ -1,0 +1,25 @@
+---
+interface Props {
+  product: any;
+  index?: number;
+}
+import categories from '../data/categories.json';
+const { product: p, index = 0 } = Astro.props;
+---
+
+<article
+  class="product-card"
+  data-product
+  data-category={p.category}
+  data-search={`${p.name} ${p.aliases.join(' ')}`.toLowerCase()}
+>
+  <p class="eyebrow">{categories.find((c) => c.id === p.category)?.name}</p><h3>
+    {p.hasDetail ? <a href={`/products/${p.slug}/`}>{p.name}</a> : p.name}
+  </h3><div class="product-bottom">
+    <a
+      class="text-link"
+      href={`/contact/?product=${encodeURIComponent(p.name)}`}
+      >Ask about this product <span aria-hidden="true">↗</span></a
+    ><span class="product-code">{String(index + 1).padStart(2, '0')}</span>
+  </div>
+</article>

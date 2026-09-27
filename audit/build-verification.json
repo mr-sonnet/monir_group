@@ -1,0 +1,46 @@
+{
+  "htmlPages": 25,
+  "internalReferencesChecked": 540,
+  "brokenReferences": [],
+  "media": {
+    "files": 4,
+    "rawBytes": 107912,
+    "gzipBytes": 107594
+  },
+  "javascript": {
+    "files": 1,
+    "rawBytes": 5013,
+    "gzipBytes": 2114
+  },
+  "css": {
+    "files": 1,
+    "rawBytes": 14447,
+    "gzipBytes": 3870
+  },
+  "lab": [
+    {
+      "label": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "conditions": "Unthrottled local production preview, Chromium. Single run; not field Core Web Vitals.",
+      "lcp": 84,
+      "cls": 0,
+      "domContentLoaded": 16.30000001192093,
+      "load": 18
+    },
+    {
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "conditions": "Unthrottled local production preview, Chromium. Single run; not field Core Web Vitals.",
+      "lcp": 68,
+      "cls": 0,
+      "domContentLoaded": 12.099999994039536,
+      "load": 13.300000011920929
+    }
+  ]
+}

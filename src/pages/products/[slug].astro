@@ -1,0 +1,90 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import products from '../../content/products/catalog.json';
+import categories from '../../data/categories.json';
+export function getStaticPaths() {
+  return products
+    .filter((p) => p.hasDetail)
+    .map((product) => ({ params: { slug: product.slug }, props: { product } }));
+}
+const { product: p } = Astro.props;
+const category = categories.find((c) => c.id === p.category)!;
+const related = products
+  .filter((x) => x.category === p.category && x.slug !== p.slug)
+  .slice(0, 3);
+---
+
+<Layout title={p.name} description={p.summary}
+  ><section class="page-intro">
+    <div class="wrap">
+      <div class="breadcrumb">
+        <a href="/products/">Products</a> / {p.name}
+      </div><p class="eyebrow">{category.name}</p><h1>{p.name}</h1><p
+        class="lead muted"
+      >
+        {p.summary}
+      </p><div class="row" style="margin-top:30px">
+        <a
+          class="btn dark"
+          href={`/contact/?product=${encodeURIComponent(p.name)}`}
+          >Request a Quote for {p.name} ↗</a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">PRODUCT INQUIRY</p><h2>
+          Let’s get the<br />details right.
+        </h2><p class="muted">
+          The right specification starts with your requirement. Include your
+          preferred grade, intended use and any documentation you need when
+          contacting the group.
+        </p><p class="detail-note">
+          This listing is an inquiry starting point. Product specifications and
+          availability have not been published.
+        </p>
+      </div><div class="detail-panel">
+        <h2>Include in your inquiry</h2><ul>
+          <li>Required grade or specification</li><li>
+            Quantity and preferred packaging
+          </li><li>Delivery location</li><li>
+            Any origin or timing preference
+          </li>
+        </ul>{p.origin && <p>Origin: {p.origin}</p>}{
+          p.packaging && <p>Packaging: {p.packaging}</p>
+        }{
+          Object.entries(p.specifications).length > 0 && (
+            <dl>
+              {Object.entries(p.specifications).map(([key, value]) => (
+                <>
+                  <dt>{key}</dt>
+                  <dd>{String(value)}</dd>
+                </>
+              ))}
+            </dl>
+          )
+        }<a
+          class="text-link"
+          href={`/contact/?product=${encodeURIComponent(p.name)}`}
+          >Ask about {p.name} ↗</a>
+      </div>
+    </div>
+  </section><section class="section" style="background:#e9eee5">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>In the same product family.</h2><a
+          class="text-link"
+          href={`/products/?category=${p.category}`}
+          >Browse {category.name.toLowerCase()} ↗</a>
+      </div><div class="catalog-grid">
+        {
+          related.map((product, i) => (
+            <ProductCard product={product} index={i} />
+          ))
+        }
+      </div>
+    </div>
+  </section></Layout
+>
