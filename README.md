@@ -4,7 +4,7 @@ Separate owner-only review project. Does not read from WordPress at runtime or w
 
 ## Run
 
-Node 24 is supported. `npm ci`, then `npm run dev` (http://127.0.0.1:4321). `npm run check`, `npm run build`, `npm run preview`. Browser tests: `npx playwright install chromium firefox`, then `npm test` while the local preview is running.
+Node 24 is supported. `npm ci`, then `npm run dev` (http://127.0.0.1:4321). `npm run check`, `npm run build`, `npm run preview`. Browser tests: `npx playwright install chromium`, then `npm test` while the local preview is running.
 
 ## Editing
 
@@ -26,8 +26,15 @@ The form includes a honeypot; client-side checks alone are not production spam p
 
 ## Media recovery and migration
 
-`audit/asset-manifest.csv` and `audit/used-assets.json` preserve provenance. Raw media was downloaded to `public/media/monir-group` during inventory, then moved to `audit/media-originals` to keep excluded assets out of the deployment. The local recovery archive is about 104 MiB and deliberately ignored by Git along with raw HTML/API dumps; preserve this directory separately if moving the project. Descriptive filenames are retained; repeated thumbnail variants are not used in the new site. The small selected asset set is versioned under `public/media/monir-group`.
+`audit/asset-manifest.csv` and `audit/used-assets.json` preserve provenance. Raw media was downloaded to `public/media/monir-group` during inventory, then moved to `audit/media-originals` to keep excluded assets out of the deployment. The complete recovery archive (about 104 MiB), public HTML/API snapshots, original handoff and QA records are included in this private repository. Archive inclusion does not imply permission for public reuse. Descriptive filenames are retained; repeated thumbnail variants are not used in the new site. The small selected asset set is versioned under `public/media/monir-group`.
 
 `audit/legacy-urls.csv` records URL-to-action decisions. `public/_redirects` supplies equivalent-page 301 rules; Astro also emits redirect fallbacks. Removed templates have no route and resolve to 404. Review host support before public migration. No old URL or sitemap is edited remotely.
 
 Read `audit/open-facts.md` and `audit/qa.md` before any launch. A CMS is intentionally outside this build.
+
+## Private review
+
+https://monir-group-private-review.dr-loren-mic-5808.chatgpt.site
+
+The full browser test suite also uses an installed Microsoft Edge browser. The existing WordPress site and monirgroupbd.com remain untouched. The quote form is a clearly labeled demo and does not deliver inquiries.
+

@@ -9,8 +9,3 @@ test-results/
 playwright-report/
 *.tar.gz
 *.log
-audit/media-originals/
-audit/html/
-audit/media-api-*.json
-audit/pages-*.json
-audit/posts-*.json
