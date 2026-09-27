@@ -97,6 +97,320 @@
   },
   "suites": [
     {
+      "title": "media.spec.ts",
+      "file": "media.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "hero plays existing-site video with working pause and resume",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 535,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T15:00:45.919Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66eff6f10bb92964d9d6-5142659c3767bdbb5e2e",
+          "file": "media.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "reduced motion keeps the poster without automatically downloading video",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 322,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T15:00:45.919Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66eff6f10bb92964d9d6-ee375568a2d092c91a0a",
+          "file": "media.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "all 55 product illustrations load and priority details use matching images",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 2962,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T15:00:45.919Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66eff6f10bb92964d9d6-82cb1de2e4274a350768",
+          "file": "media.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "hero plays existing-site video with working pause and resume",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 995,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T15:00:53.702Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66eff6f10bb92964d9d6-d808fb1b042f5a99e82c",
+          "file": "media.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "reduced motion keeps the poster without automatically downloading video",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 607,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T15:00:54.030Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66eff6f10bb92964d9d6-9cfbf27dc1d58d1e1e0e",
+          "file": "media.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "all 55 product illustrations load and priority details use matching images",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "edge",
+              "projectName": "edge",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4046,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T15:00:54.030Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66eff6f10bb92964d9d6-96264a4bfaf181dbafe7",
+          "file": "media.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "hero plays existing-site video with working pause and resume",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 447,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T15:01:03.535Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66eff6f10bb92964d9d6-34a7ac6cefbbb220d074",
+          "file": "media.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "reduced motion keeps the poster without automatically downloading video",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 263,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T15:01:03.596Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66eff6f10bb92964d9d6-5144090c444bd668caac",
+          "file": "media.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "all 55 product illustrations load and priority details use matching images",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3414,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T15:01:03.878Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66eff6f10bb92964d9d6-c88fabc5d7d43440f5cc",
+          "file": "media.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
       "title": "site.spec.ts",
       "file": "site.spec.ts",
       "column": 0,
@@ -115,15 +429,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1771,
+                  "duration": 4217,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:16.993Z",
+                  "startTime": "2026-09-27T15:00:46.458Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -133,7 +447,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-fb67b0ad66e8c06e62bf",
           "file": "site.spec.ts",
-          "line": 4,
+          "line": 12,
           "column": 1
         },
         {
@@ -149,15 +463,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
                   "duration": 570,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:16.994Z",
+                  "startTime": "2026-09-27T15:00:46.663Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -167,7 +481,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-ded9e66d930b47557b3f",
           "file": "site.spec.ts",
-          "line": 10,
+          "line": 48,
           "column": 1
         },
         {
@@ -183,15 +497,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1999,
+                  "duration": 1886,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:16.993Z",
+                  "startTime": "2026-09-27T15:00:47.248Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -201,7 +515,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-f2c252747483301dd9f7",
           "file": "site.spec.ts",
-          "line": 15,
+          "line": 78,
           "column": 1
         },
         {
@@ -217,15 +531,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 2964,
+                  "duration": 2979,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:17.714Z",
+                  "startTime": "2026-09-27T15:00:49.077Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -235,7 +549,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-7b0308216369eefbcf87",
           "file": "site.spec.ts",
-          "line": 19,
+          "line": 106,
           "column": 1
         },
         {
@@ -254,12 +568,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3502,
+                  "duration": 3570,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:18.914Z",
+                  "startTime": "2026-09-27T15:00:49.147Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -269,45 +583,11 @@
           ],
           "id": "5c02723ad68c2a0d50c5-86086a1cdd5d096a9195",
           "file": "site.spec.ts",
-          "line": 22,
+          "line": 126,
           "column": 1
         },
         {
           "title": "keyboard navigation, mobile menu and WCAG automated checks",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 45000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 1965,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-09-27T07:10:19.144Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "5c02723ad68c2a0d50c5-8397dfdf7ee2e572bb8e",
-          "file": "site.spec.ts",
-          "line": 25,
-          "column": 1
-        },
-        {
-          "title": "priority routes, legacy equivalents and missing pages",
           "ok": true,
           "tags": [],
           "tests": [
@@ -322,12 +602,46 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 851,
+                  "duration": 2789,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:20.690Z",
+                  "startTime": "2026-09-27T15:00:50.686Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-8397dfdf7ee2e572bb8e",
+          "file": "site.spec.ts",
+          "line": 149,
+          "column": 1
+        },
+        {
+          "title": "priority routes, legacy equivalents and missing pages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 935,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-27T15:00:52.066Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -337,7 +651,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-6303b9e26d3986b5eca7",
           "file": "site.spec.ts",
-          "line": 29,
+          "line": 180,
           "column": 1
         },
         {
@@ -353,15 +667,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
-                  "parallelIndex": 2,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 475,
+                  "duration": 690,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:21.121Z",
+                  "startTime": "2026-09-27T15:00:52.730Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -371,7 +685,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-fb5cd362b87b2371336d",
           "file": "site.spec.ts",
-          "line": 34,
+          "line": 216,
           "column": 1
         },
         {
@@ -387,15 +701,15 @@
               "projectName": "edge",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 1,
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2402,
+                  "duration": 4958,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:22.089Z",
+                  "startTime": "2026-09-27T15:00:55.163Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -405,7 +719,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-c0cc7285b7b8ec4dfa28",
           "file": "site.spec.ts",
-          "line": 4,
+          "line": 12,
           "column": 1
         },
         {
@@ -421,15 +735,15 @@
               "projectName": "edge",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 3,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 880,
+                  "duration": 943,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:22.121Z",
+                  "startTime": "2026-09-27T15:00:55.442Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -439,7 +753,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-b67b73a8a7bf7a6632d6",
           "file": "site.spec.ts",
-          "line": 10,
+          "line": 48,
           "column": 1
         },
         {
@@ -455,15 +769,15 @@
               "projectName": "edge",
               "results": [
                 {
-                  "workerIndex": 5,
-                  "parallelIndex": 0,
+                  "workerIndex": 3,
+                  "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 2178,
+                  "duration": 1903,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:23.324Z",
+                  "startTime": "2026-09-27T15:00:56.401Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -473,7 +787,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-28b634ac7416d2e6ab47",
           "file": "site.spec.ts",
-          "line": 15,
+          "line": 78,
           "column": 1
         },
         {
@@ -489,15 +803,15 @@
               "projectName": "edge",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 3,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 3102,
+                  "duration": 3057,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:23.473Z",
+                  "startTime": "2026-09-27T15:00:58.319Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -507,7 +821,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-bd204a37b01212f2066a",
           "file": "site.spec.ts",
-          "line": 19,
+          "line": 106,
           "column": 1
         },
         {
@@ -523,15 +837,15 @@
               "projectName": "edge",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 5,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3552,
+                  "duration": 3535,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:24.989Z",
+                  "startTime": "2026-09-27T15:00:58.579Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -541,7 +855,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-e7d98626f8ff64e60360",
           "file": "site.spec.ts",
-          "line": 22,
+          "line": 126,
           "column": 1
         },
         {
@@ -557,15 +871,15 @@
               "projectName": "edge",
               "results": [
                 {
-                  "workerIndex": 5,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2475,
+                  "duration": 2590,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:25.834Z",
+                  "startTime": "2026-09-27T15:01:00.141Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -575,7 +889,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-6cc6bbec655e9690e635",
           "file": "site.spec.ts",
-          "line": 25,
+          "line": 149,
           "column": 1
         },
         {
@@ -591,15 +905,15 @@
               "projectName": "edge",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 3,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 1250,
+                  "duration": 1356,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:26.587Z",
+                  "startTime": "2026-09-27T15:01:01.387Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -609,7 +923,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-0ae85f7c070b56ae7213",
           "file": "site.spec.ts",
-          "line": 29,
+          "line": 180,
           "column": 1
         },
         {
@@ -625,15 +939,15 @@
               "projectName": "edge",
               "results": [
                 {
-                  "workerIndex": 4,
-                  "parallelIndex": 2,
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 672,
+                  "duration": 955,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:27.847Z",
+                  "startTime": "2026-09-27T15:01:02.125Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -643,7 +957,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-c0890372da122bd221d9",
           "file": "site.spec.ts",
-          "line": 34,
+          "line": 216,
           "column": 1
         },
         {
@@ -659,15 +973,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 6,
-                  "parallelIndex": 0,
+                  "workerIndex": 7,
+                  "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 2472,
+                  "duration": 5549,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:29.103Z",
+                  "startTime": "2026-09-27T15:01:04.077Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -677,7 +991,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-6d84957cdf48f87dfe8c",
           "file": "site.spec.ts",
-          "line": 4,
+          "line": 12,
           "column": 1
         },
         {
@@ -693,15 +1007,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 7,
-                  "parallelIndex": 2,
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 480,
+                  "duration": 509,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:29.290Z",
+                  "startTime": "2026-09-27T15:01:04.185Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -711,7 +1025,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-b52497f54da8cda2ebf7",
           "file": "site.spec.ts",
-          "line": 10,
+          "line": 48,
           "column": 1
         },
         {
@@ -727,15 +1041,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 8,
-                  "parallelIndex": 1,
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1683,
+                  "duration": 1658,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:29.321Z",
+                  "startTime": "2026-09-27T15:01:04.707Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -745,7 +1059,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-5c1679bbac1b4675e2ac",
           "file": "site.spec.ts",
-          "line": 15,
+          "line": 78,
           "column": 1
         },
         {
@@ -761,15 +1075,15 @@
               "projectName": "mobile",
               "results": [
                 {
-                  "workerIndex": 7,
-                  "parallelIndex": 2,
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2933,
+                  "duration": 2960,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:29.904Z",
+                  "startTime": "2026-09-27T15:01:06.376Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -779,7 +1093,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-a554ba64f6fbcdeeaff4",
           "file": "site.spec.ts",
-          "line": 19,
+          "line": 106,
           "column": 1
         },
         {
@@ -798,12 +1112,12 @@
                   "workerIndex": 8,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 4081,
+                  "duration": 4105,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:31.142Z",
+                  "startTime": "2026-09-27T15:01:07.496Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -813,7 +1127,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-638ae4b1e3681059ef51",
           "file": "site.spec.ts",
-          "line": 22,
+          "line": 126,
           "column": 1
         },
         {
@@ -832,12 +1146,12 @@
                   "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1935,
+                  "duration": 2172,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:31.711Z",
+                  "startTime": "2026-09-27T15:01:09.347Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -847,7 +1161,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-e63efee4325dfbdfefd7",
           "file": "site.spec.ts",
-          "line": 25,
+          "line": 149,
           "column": 1
         },
         {
@@ -866,12 +1180,12 @@
                   "workerIndex": 7,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 747,
+                  "duration": 796,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:32.846Z",
+                  "startTime": "2026-09-27T15:01:09.637Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -881,7 +1195,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-88dd014f8e23e8cf28dc",
           "file": "site.spec.ts",
-          "line": 29,
+          "line": 180,
           "column": 1
         },
         {
@@ -900,12 +1214,12 @@
                   "workerIndex": 7,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 414,
+                  "duration": 476,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-27T07:10:33.601Z",
+                  "startTime": "2026-09-27T15:01:10.441Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -915,7 +1229,7 @@
           ],
           "id": "5c02723ad68c2a0d50c5-69d74d28b0157567916d",
           "file": "site.spec.ts",
-          "line": 34,
+          "line": 216,
           "column": 1
         }
       ]
@@ -923,9 +1237,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-09-27T07:10:16.432Z",
-    "duration": 18878.792999999998,
-    "expected": 24,
+    "startTime": "2026-09-27T15:00:45.389Z",
+    "duration": 26322.753,
+    "expected": 33,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

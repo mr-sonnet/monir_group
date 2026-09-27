@@ -19,3 +19,6 @@ Unsupported employment/client/supplier counts, rankings, compliance, growth and 
 - Media manifests include source URL, local recovery path, dimensions when decodable, placement, type and classification. Generic classification is conservative and not a license determination.
 - No private uploads export, admin access, Search Console, analytics history or independent company verification was available.
 - Before launch: legal/privacy review, asset rights, actual delivery, real-user performance and chosen hosting capabilities remain to be confirmed.
+
+## Owner-requested media update
+The first current-site homepage video and all 55 corresponding product illustrations are now included in the private preview at the user's request. This supersedes the initial decision to hide those assets. Source mapping is in added-media.json; video is decorative and is not presented as a Monir Group facility. Public-launch rights verification remains an owner task.

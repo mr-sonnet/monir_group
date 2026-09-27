@@ -8,7 +8,9 @@ import businesses from '../content/businesses/companies.json';
 ---
 
 <Layout title="Ingredients for essential industries">
-  <section class="hero">
+  <section class="hero video-hero">
+    <video id="hero-video" class="hero-video" muted loop playsinline preload="none" poster="/media/monir-group/home-hero-poster.webp" aria-hidden="true" tabindex="-1" data-src="/media/monir-group/home-hero.mp4"></video>
+    <div class="hero-shade" aria-hidden="true"></div>
     <div class="wrap">
       <div class="hero-grid">
         <div>
@@ -25,31 +27,9 @@ import businesses from '../content/businesses/companies.json';
             ><a class="btn outline" href="/products/"
               >Explore Products <span aria-hidden="true">→</span></a>
           </div>
-        </div><aside class="supply-board" aria-label="Product range">
-          <div class="board-top">
-            <img
-              src={company.logo}
-              alt="Monir Group mark"
-              width="88"
-              height="88"
-            /><span>OUR RANGE<br />YOUR REQUIREMENT</span>
-          </div><div class="board-title">
-            From the grain.<br />To the greater<br />possibility.
-          </div><div>
-            {
-              categories.map((c) => (
-                <a class="board-row" href={`/products/?category=${c.id}`}>
-                  <>
-                    <span>{c.name}</span>
-                    <span aria-hidden="true">↗</span>
-                  </>
-                </a>
-              ))
-            }
-          </div>
-        </aside>
+        </div>
       </div><div class="hero-bottom">
-        <span>Trading & feed-related businesses</span><span
+        <span>Trading & feed-related businesses</span><button id="hero-video-toggle" type="button" class="video-toggle" hidden>Play background video</button><span
           >Gazipur · Dinajpur · Jamalpur</span
         ><span>Built around commercial supply</span>
       </div>
@@ -214,3 +194,16 @@ import businesses from '../content/businesses/companies.json';
     </div>
   </section><CTA />
 </Layout>
+
+<script>
+const video=document.querySelector<HTMLVideoElement>('#hero-video')!;
+const toggle=document.querySelector<HTMLButtonElement>('#hero-video-toggle')!;
+const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+const connection=(navigator as Navigator & {connection?:{saveData?:boolean}}).connection;
+function sync(){toggle.textContent=video.paused?'Play background video':'Pause background video'}
+async function play(){if(!video.getAttribute('src'))video.src=video.dataset.src!;try{await video.play()}catch{video.pause()}sync()}
+toggle.hidden=false;toggle.addEventListener('click',()=>{if(video.paused)void play();else video.pause()});
+video.addEventListener('play',sync);video.addEventListener('pause',sync);video.addEventListener('error',()=>{video.removeAttribute('src');video.load();toggle.hidden=true});
+reduced.addEventListener('change',()=>{if(reduced.matches)video.pause()});
+if(!reduced.matches&&!connection?.saveData)void play();
+</script>

@@ -16,8 +16,8 @@ const related = products
 ---
 
 <Layout title={p.name} description={p.summary}
-  ><section class="page-intro">
-    <div class="wrap">
+  ><section class="page-intro product-intro">
+    <div class="wrap product-detail-heading"><div>
       <div class="breadcrumb">
         <a href="/products/">Products</a> / {p.name}
       </div><p class="eyebrow">{category.name}</p><h1>{p.name}</h1><p
@@ -30,7 +30,7 @@ const related = products
           href={`/contact/?product=${encodeURIComponent(p.name)}`}
           >Request a Quote for {p.name} ↗</a>
       </div>
-    </div>
+    </div>{p.image && <div class="product-detail-image"><img src={p.image} alt={p.name} width="720" height="540" fetchpriority="high" /></div>}</div>
   </section>
   <section class="section">
     <div class="wrap split">

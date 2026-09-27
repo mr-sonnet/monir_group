@@ -38,3 +38,6 @@ https://monir-group-private-review.dr-loren-mic-5808.chatgpt.site
 
 The full browser test suite also uses an installed Microsoft Edge browser. The existing WordPress site and monirgroupbd.com remain untouched. The quote form is a clearly labeled demo and does not deliver inquiries.
 
+
+## Video and product imagery
+The homepage uses the first video from the current WordPress slider, with pause/play, reduced-motion and poster fallback. All 55 products have matched, optimized local images. `audit/added-media.json` records each source URL. The latest QA suite contains 33 tests.

@@ -25,3 +25,11 @@ Single unthrottled Chromium runs on localhost, static production preview: deskto
 - Business identities, addresses, leadership, product nomenclature and media permissions need owner confirmation (`open-facts.md`). Third-party product artwork, stock/facility-like images, partner logos, invented metrics and claims are hidden.
 - All new pages are noindex; robots disallows crawling; sitemap has no approved public URLs. Private access is handled by the owner-only Sites deployment, rather than robots alone.
 - WordPress, current domain, DNS, production redirects and the existing sitemap were not modified. Private deployment status is verified separately by the Sites service.
+
+## Media update requested by owner
+
+The homepage now uses the exact first current-site slider video, downloaded locally (3,096,981 bytes), with its existing poster. It autoplays muted and loops, includes an accessible pause/play button, and keeps the poster without automatic video download for reduced-motion/data-saving preferences. It is decorative source-site footage, not claimed to show group facilities.
+
+All 55 catalog products now display their corresponding current-site images, optimized as local WebP copies; priority detail pages and related-product cards use the same mapping. Source URLs and reuse instruction are recorded in `audit/added-media.json`. This supersedes earlier notes saying product images/video were hidden.
+
+33 browser tests pass across Chromium, Edge and mobile emulation, including video play/pause/resume, reduced-motion behavior, every product image, detail-image matching, catalog search and quote-flow regressions. Desktop/mobile screenshots were reviewed. Original WordPress remains unchanged.

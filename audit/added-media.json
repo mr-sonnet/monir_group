@@ -1,0 +1,343 @@
+[
+  {
+    "use": "First homepage slider video",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/01/1615506-Drone-Analysing-Load-1280X720.mp4",
+    "local": "public/media/monir-group/home-hero.mp4",
+    "permission": "Requested by user for preview; existing-site video, not verified facility footage"
+  },
+  {
+    "use": "Video poster",
+    "source": "https://monirgroupbd.com/wp-content/uploads/revslider/video-media/1615506-Drone-Analysing-Load-1280X720_2.jpeg",
+    "local": "public/media/monir-group/home-hero-poster.webp"
+  },
+  {
+    "use": "Maize",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/pngwing.com-jhjj1.png",
+    "local": "public/media/monir-group/maize-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Full-Fat Soybean",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/pngwing.com-5.png",
+    "local": "public/media/monir-group/full-fat-soybean-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Soybean Meal (High Protein)",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/hi-pro.jpg",
+    "local": "public/media/monir-group/soybean-meal-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Soybean Meal (Low Protein)",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/soya-meal-low-protine.jpg",
+    "local": "public/media/monir-group/soybean-meal-low-protein-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "DORB",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/04/DORB.webp",
+    "local": "public/media/monir-group/dorb-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Wheat Dust",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/04/wheat-dust.webp",
+    "local": "public/media/monir-group/wheat-dust-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Rapeseed",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/04/rapeseed.webp",
+    "local": "public/media/monir-group/rapeseed-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Fish Meal",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/04/fish-meal.webp",
+    "local": "public/media/monir-group/fish-meal-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Dry Fish Powder",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/shutki-maser-gura.jpeg",
+    "local": "public/media/monir-group/dry-fish-powder-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Mora Chal",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/mora-chal.jpg",
+    "local": "public/media/monir-group/mora-chal-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Maize Powder",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/maize-powder.jpg",
+    "local": "public/media/monir-group/maize-powder-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Half-Broken Maize",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/WhatsApp_Image_2023-08-15_at_12.44.42-removebg-preview-600x329.png",
+    "local": "public/media/monir-group/half-broken-maize-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Diamond Broken Rice",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/diamond-khud.jpg",
+    "local": "public/media/monir-group/diamond-broken-rice-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Wheat Husk",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/gomer-vushi-771x1024.jpg",
+    "local": "public/media/monir-group/wheat-husk-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Mixed Dry Fish",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/high-quality-meal-shutki.jpeg",
+    "local": "public/media/monir-group/mixed-dry-fish-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Poultry Meal",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/poultry-meal.jpg",
+    "local": "public/media/monir-group/poultry-meal-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Poultry Meal Oil",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/poultry-meal-oil-1024x683.jpg",
+    "local": "public/media/monir-group/poultry-meal-oil-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Rice Polish",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/rice-polish.jpeg",
+    "local": "public/media/monir-group/rice-polish-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Mustard Oil Cake (Shorishar Khoil)",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/tiler-khoil.webp",
+    "local": "public/media/monir-group/mustard-oil-cake-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Limestone Powder",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/white-limestone-powder-500x500-1.webp",
+    "local": "public/media/monir-group/limestone-powder-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Corn Powder",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/Corn-Powder-Sat6.webp",
+    "local": "public/media/monir-group/corn-powder-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Limestone 2–3 mm",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/wholesale-limestone-granules-for-animal-feed-size-2-3-mm0-0528565001624542657-removebg-preview.png",
+    "local": "public/media/monir-group/limestone-2-3-mm-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Chickpea Bran (Cholar Vushi)",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/11/152082924_1367146456997007_1262590600503810053_n.jpg",
+    "local": "public/media/monir-group/chickpea-bran-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Diamond Cut Rice",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/11/WhatsApp-Image-2023-09-04-at-12.04.37_9e250d0f-e1699441449282.jpg",
+    "local": "public/media/monir-group/diamond-cut-rice-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Chitagur",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/11/FB_IMG_1551577815744-397x330-1.jpg",
+    "local": "public/media/monir-group/chitagur-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Wheat",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/08/Heads-wheat-grains-1024x768.webp",
+    "local": "public/media/monir-group/wheat-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Red Rice",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/Organic_Red_Rice_25KG_RIRED2.25__70057.1640059813.1280.1280__40596.jpg",
+    "local": "public/media/monir-group/red-rice-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Brown Rice",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/shutterstock_249324025-1.jpg",
+    "local": "public/media/monir-group/brown-rice-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Basmati Rice",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/Basmati-Rice.jpg",
+    "local": "public/media/monir-group/basmati-rice-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Atop Rice",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/lg_atop_rice_901d160cea2269b43382ea89c88b70fd0.jpg",
+    "local": "public/media/monir-group/atop-rice-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Sugar",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/sugar-shutterstock_615908132.jpg",
+    "local": "public/media/monir-group/sugar-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Molasses",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/AdobeStock_457626656.webp",
+    "local": "public/media/monir-group/molasses-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Maida Flour",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/1c9f96f6747938f9a782aff597268e98.jpeg",
+    "local": "public/media/monir-group/maida-flour-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Atta Flour",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/1_E1XbXpyexi8eCyH22vUPdw.jpg",
+    "local": "public/media/monir-group/atta-flour-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "L-Threonine",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/feed-ingredients-l-threonine-granular.jpg",
+    "local": "public/media/monir-group/l-threonine-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "L-Lysine",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/TB-L-Lysine.jpg",
+    "local": "public/media/monir-group/l-lysine-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "L-Meta Amino",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/methionine.jpg",
+    "local": "public/media/monir-group/l-meta-amino-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "L-Valine",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/Screen-Shot-2023-03-05-at-7.30.06-PM-min-scaled-e1678066622571.jpg",
+    "local": "public/media/monir-group/l-valine-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Methionine",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/Good-Price-Food-Grade-Feed-Grade-63-68-3-L-Methionine-Powder-59-51-8-Dl-Methionine.jpg",
+    "local": "public/media/monir-group/methionine-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Sulfet",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/getty_4eedb26663074a608ffb532197a9cc35-scaled.jpg",
+    "local": "public/media/monir-group/sulfet-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "DDGS",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/c604121697d6b000.jpg",
+    "local": "public/media/monir-group/ddgs-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Corn Gluten Meal",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/corn-gluten.webp",
+    "local": "public/media/monir-group/corn-gluten-meal-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Dicalcium Phosphate (DCP)",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/Rs2GraaOUZGt.jpg",
+    "local": "public/media/monir-group/dicalcium-phosphate-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Monocalcium Phosphate (MCP)",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/TRI-CALIUM-PHOSPHATE-1024x683-1.jpg",
+    "local": "public/media/monir-group/monocalcium-phosphate-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Sodium Bicarbonate",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/07/bicarbonateofsoda-584b739.jpg",
+    "local": "public/media/monir-group/sodium-bicarbonate-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Chickpea",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2025/02/chickpeas-garbanzos.jpg",
+    "local": "public/media/monir-group/chickpea-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Mashkalai Lentil",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2025/02/Mashkolai-dal-মাসকলাই-ডাল-350x350-1.jpg",
+    "local": "public/media/monir-group/mashkalai-lentil-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Khesari Dal",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2025/02/grass-pea-benefits-side-effects.jpg",
+    "local": "public/media/monir-group/khesari-dal-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Lentils",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2025/02/unnamed-2.jpg",
+    "local": "public/media/monir-group/lentils-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Mung Dal",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2025/02/WhatsApp-Image-20240404-at-94433-AM-2024-04-f105944fa3f77a9953a832a65e6125b0.jpeg",
+    "local": "public/media/monir-group/mung-dal-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Anchor Dal",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2025/02/80e0539668e2a41d4665d62467ff38221726502207415485_original.avif",
+    "local": "public/media/monir-group/anchor-dal-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Chickpea Husk",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2025/02/chickpeas-husk-1482303305-2649584.jpeg",
+    "local": "public/media/monir-group/chickpea-husk-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Khesari Dal Bran",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2025/02/images-1.jpg",
+    "local": "public/media/monir-group/khesari-dal-bran-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Anchor Dal Bran",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2025/02/470143751_122181969212153177_752348281834007339_n.jpg",
+    "local": "public/media/monir-group/anchor-dal-bran-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  },
+  {
+    "use": "Masoor Dal Bran (Moshuri Daler Vushi)",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2025/02/images-2.jpg",
+    "local": "public/media/monir-group/masoor-dal-bran-catalog.webp",
+    "permission": "User requested existing-site product image reuse"
+  }
+]
