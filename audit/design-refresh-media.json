@@ -1,0 +1,62 @@
+[
+  {
+    "name": "M/S Monir Enterprise",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2021/10/monir-enterprise-e1682655219164.webp",
+    "local": "/media/monir-group/concern-1.webp"
+  },
+  {
+    "name": "Monir Poultry Feed Industries Limited",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/02/monir-logo-feed.png.webp",
+    "local": "/media/monir-group/concern-2.webp"
+  },
+  {
+    "name": "Monir Export Import Trading Ltd.",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2026/01/Monir-Export-Import-Trading-LTD.png",
+    "local": "/media/monir-group/concern-3.webp"
+  },
+  {
+    "name": "Mahi International",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2024/02/monir-logo-2.png.webp",
+    "local": "/media/monir-group/concern-4.webp"
+  },
+  {
+    "name": "Sadman Green Agro",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/04/sadman-green-agro-1.webp",
+    "local": "/media/monir-group/concern-5.webp"
+  },
+  {
+    "name": "M.M Poultry Feed & Fish Feed",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/04/1.webp",
+    "local": "/media/monir-group/concern-6.webp"
+  },
+  {
+    "name": "Muskan Trading Corporation",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/04/12.webp",
+    "local": "/media/monir-group/concern-7.webp"
+  },
+  {
+    "name": "Mow Trading",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/04/6.webp",
+    "local": "/media/monir-group/concern-8.webp"
+  },
+  {
+    "name": "Raiyan Global Trade Link",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-08-25-at-11.19.34-PM.jpeg",
+    "local": "/media/monir-group/concern-9.webp"
+  },
+  {
+    "name": "Nusrat Enterprise",
+    "source": "https://monirgroupbd.com/wp-content/uploads/2023/04/9.webp",
+    "local": "/media/monir-group/concern-10.webp"
+  },
+  {
+    "source": "Existing-site archive: whole-broken-ears-corn-wooden-table-against-background-cornfield.jpg",
+    "local": "public/media/monir-group/corn-harvest.webp",
+    "use": "Generic agricultural material imagery, not company facilities"
+  },
+  {
+    "source": "Existing-site archive: soybean-seeds-wooden-floor-hemp-sacks-food-nutrition-concept.jpg",
+    "local": "public/media/monir-group/soybean-sourcing.webp",
+    "use": "Generic agricultural material imagery, not company facilities"
+  }
+]

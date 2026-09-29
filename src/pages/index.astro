@@ -1,66 +1,94 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import CTA from '../components/CTA.astro';
+import ConcernCard from '../components/ConcernCard.astro';
+import ProductCard from '../components/ProductCard.astro';
 import { company } from '../data/company';
 import categories from '../data/categories.json';
 import products from '../content/products/catalog.json';
 import businesses from '../content/businesses/companies.json';
+const categoryImages = [
+  'maize',
+  'wheat',
+  'dicalcium-phosphate',
+  'chickpea',
+].map((slug) => products.find((p) => p.slug === slug)!);
+const featured = [
+  'maize',
+  'full-fat-soybean',
+  'soybean-meal',
+  'fish-meal',
+  'wheat',
+  'dicalcium-phosphate',
+].map((slug) => products.find((p) => p.slug === slug)!);
 ---
 
-<Layout title="Ingredients for essential industries">
+<Layout title="Trade, agriculture & nutrition">
   <section class="hero video-hero">
-    <video id="hero-video" class="hero-video" muted loop playsinline preload="none" poster="/media/monir-group/home-hero-poster.webp" aria-hidden="true" tabindex="-1" data-src="/media/monir-group/home-hero.mp4"></video>
-    <div class="hero-shade" aria-hidden="true"></div>
-    <div class="wrap">
+    <video
+      id="hero-video"
+      class="hero-video"
+      muted
+      loop
+      playsinline
+      preload="none"
+      poster="/media/monir-group/home-hero-poster.webp"
+      aria-hidden="true"
+      tabindex="-1"
+      data-src="/media/monir-group/home-hero.mp4"></video><div
+      class="hero-shade"
+      aria-hidden="true"
+    >
+    </div><div class="wrap">
       <div class="hero-grid">
-        <div>
-          <p class="eyebrow">MONIR GROUP · BANGLADESH</p><h1>
-            Supplying the<br />ingredients behind<br /><em
-              >essential industries.</em>
+        <div class="hero-copy">
+          <p class="eyebrow">WELCOME TO MONIR GROUP</p><h1>
+            The ingredients<br />behind a world<br />of <em>possibilities.</em>
           </h1><p class="lead">
-            Connecting business needs with feed ingredients, grains,
-            agricultural commodities and nutritional inputs. Explore our range.
-            Tell us what your business needs.
+            Feed ingredients. Agricultural commodities. Nutritional inputs. <br
+            />Connecting your business with the materials it needs.
           </p><div class="row">
-            <a class="btn" href="/contact/"
-              >Request a Quote <span aria-hidden="true">↗</span></a
-            ><a class="btn outline" href="/products/"
-              >Explore Products <span aria-hidden="true">→</span></a>
+            <a class="btn" href="/products/"
+              >Explore Our Products <span
+                class="button-arrow"
+                aria-hidden="true">↗</span
+              ></a
+            ><a class="hero-quote" href="/contact/"
+              >Request a Quote <span aria-hidden="true">→</span></a>
           </div>
+        </div><div class="hero-side">
+          <span>MONIR GROUP</span><span>BANGLADESH</span>
         </div>
       </div><div class="hero-bottom">
-        <span>Trading & feed-related businesses</span><button id="hero-video-toggle" type="button" class="video-toggle" hidden>Play background video</button><span
-          >Gazipur · Dinajpur · Jamalpur</span
-        ><span>Built around commercial supply</span>
+        <span>TRADE · AGRICULTURE · NUTRITION</span><button
+          id="hero-video-toggle"
+          type="button"
+          class="video-toggle"
+          hidden>Play background video</button>
       </div>
     </div>
   </section>
-  <section class="section">
+  <section class="category-section" aria-label="Explore our product families">
     <div class="wrap">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">01 / OUR PRODUCT RANGE</p><h2>
-            What we work with.
-          </h2>
-        </div><p class="muted">
-          Find the materials your business needs, across four product families.
-        </p>
-      </div><div class="category-grid">
+      <div class="category-grid">
         {
           categories.map((c, i) => (
             <a class="category-card" href={`/products/?category=${c.id}`}>
               <>
-                <span class="index">0{i + 1} / PRODUCT FAMILY</span>
-                <h3>{c.name}</h3>
-                <p>{c.description}</p>
-                <div class="category-foot">
+                <div class="category-photo">
+                  <img
+                    src={categoryImages[i].image}
+                    alt=""
+                    width="280"
+                    height="210"
+                  />
+                </div>
+                <div class="category-copy">
                   <>
-                    <span>
-                      {products.filter((p) => p.category === c.id).length}{' '}
-                      listed products
-                    </span>
-                    <span class="arrow" aria-hidden="true">
-                      ↗
+                    <span class="category-kicker">OUR PRODUCTS</span>
+                    <h2>{c.name}</h2>
+                    <span class="category-link">
+                      Explore range <span aria-hidden="true">↗</span>
                     </span>
                   </>
                 </div>
@@ -68,122 +96,169 @@ import businesses from '../content/businesses/companies.json';
             </a>
           ))
         }
-      </div><p class="small muted" style="margin-top:20px">
-        Grade, packaging and availability are discussed for each inquiry.
-      </p>
+      </div>
     </div>
   </section>
-  <section class="section dark-section" id="operations">
-    <div class="wrap split">
+  <section class="section about-home">
+    <div class="wrap about-composition">
+      <div class="about-visual">
+        <img
+          class="about-harvest"
+          src="/media/monir-group/corn-harvest.webp"
+          alt="Maize and ears of corn beside a cornfield"
+          width="760"
+          height="900"
+          loading="lazy"
+        /><div class="about-material">
+          <img
+            src={products.find((p) => p.slug === 'full-fat-soybean')!.image}
+            alt="Soybeans"
+            width="320"
+            height="240"
+            loading="lazy"
+          />
+        </div><div class="about-caption">
+          <span class="caption-mark" aria-hidden="true">MG</span><span
+            >Rooted in Bangladesh.<br />Connected through trade.</span>
+        </div>
+      </div><div class="about-copy">
+        <p class="eyebrow">GET TO KNOW MONIR GROUP</p><h2>
+          Many businesses.<br />One shared <span class="green-text"
+            >ambition.</span>
+        </h2><p class="lead">
+          A Bangladesh-based group bringing together trading, agricultural
+          commodities and feed-related businesses.
+        </p><p class="muted">
+          From maize and soybean products to minerals, grains and pulses, our
+          portfolio serves a broad range of business requirements. Explore our
+          concerns and find the right starting point for your next inquiry.
+        </p><div class="about-points">
+          <div>
+            <span aria-hidden="true">✓</span><p>
+              A broad range<br /><strong>of materials</strong>
+            </p>
+          </div><div>
+            <span aria-hidden="true">✓</span><p>
+              Complementary<br /><strong>group businesses</strong>
+            </p>
+          </div>
+        </div><a class="btn dark" href="/about/"
+          >Discover Our Story <span class="button-arrow" aria-hidden="true"
+            >↗</span
+          ></a>
+      </div>
+    </div>
+  </section>
+  <section class="section group-home">
+    <div class="wrap">
+      <div class="section-head centered">
+        <p class="eyebrow">OUR SISTER CONCERNS</p><h2>
+          Individual identities.<br /><span class="green-text"
+            >A collective purpose.</span>
+        </h2><p class="muted">Meet the businesses listed under Monir Group.</p>
+      </div><div class="concern-grid">
+        {businesses.map((b) => <ConcernCard company={b} />)}
+      </div><div class="section-bottom">
+        <a class="btn dark" href="/sister-concerns/"
+          >Explore Our Businesses <span class="button-arrow" aria-hidden="true"
+            >↗</span
+          ></a>
+      </div>
+    </div>
+  </section>
+  <section class="section home-products">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">OUR PRODUCT PORTFOLIO</p><h2>
+            Materials that keep<br /><span class="green-text"
+              >business moving.</span>
+          </h2>
+        </div><div>
+          <p class="muted">
+            Explore ingredients and commodities for feed production,
+            agricultural trade and related supply needs.
+          </p><a class="text-link" href="/products/"
+            >View the full catalog <span aria-hidden="true">↗</span></a>
+        </div>
+      </div><div class="catalog-grid featured-grid">
+        {featured.map((p, i) => <ProductCard product={p} index={i} />)}
+      </div>
+    </div>
+  </section>
+  <section class="sourcing-section" id="operations">
+    <img
+      src="/media/monir-group/soybean-sourcing.webp"
+      alt=""
+      loading="lazy"
+      width="1500"
+      height="900"
+    /><div class="sourcing-overlay"></div><div class="wrap sourcing-content">
       <div>
-        <p class="eyebrow">02 / COMMERCIAL SUPPLY</p><h2>
-          A clear starting point.<br />A specific conversation.
-        </h2><p class="lead muted">
-          We work with businesses seeking materials for feed production,
-          agricultural trade and related supply needs.
-        </p><a class="btn" href="/contact/"
-          >Discuss your requirement <span aria-hidden="true">↗</span></a>
+        <p class="eyebrow">BUILT AROUND YOUR REQUIREMENT</p><h2>
+          Every material.<br />Every detail.<br /><em>Let’s talk.</em>
+        </h2><a class="btn" href="/contact/"
+          >Discuss Your Requirement <span
+            class="button-arrow"
+            aria-hidden="true">↗</span
+          ></a>
       </div><ol class="process">
         <li>
           <span class="num">01</span><div>
             <h3>Choose your material</h3><p>
-              Explore the catalog or ask about a specific product.
+              Explore our range or tell us about a product you are looking for.
             </p>
           </div>
         </li><li>
           <span class="num">02</span><div>
-            <h3>Share the details</h3><p>
-              Tell us the grade, quantity and delivery location you have in
-              mind.
+            <h3>Share your requirements</h3><p>
+              Grade, quantity, packaging and delivery location help frame the
+              conversation.
             </p>
           </div>
         </li><li>
           <span class="num">03</span><div>
-            <h3>Start the conversation</h3><p>
-              Discuss specifications and availability with the group.
+            <h3>Connect with the group</h3><p>
+              Discuss specifications and availability with our team.
             </p>
           </div>
         </li>
       </ol>
     </div>
   </section>
-  <section class="section">
-    <div class="wrap split">
+  <section class="section home-people">
+    <div class="wrap people-composition">
       <div>
-        <p class="eyebrow">03 / OUR BUSINESSES</p><h2>
-          One group.<br />Complementary businesses.
+        <p class="eyebrow">THE PEOPLE BEHIND THE GROUP</p><h2>
+          Leadership with<br />a shared <span class="green-text">vision.</span>
         </h2><p class="muted">
-          Explore the companies listed under Monir Group, including trading
-          businesses and a feed industry concern.
-        </p><a class="text-link" href="/sister-concerns/"
-          >Meet the businesses <span aria-hidden="true">↗</span></a>
-      </div><div class="company-list">
-        {
-          businesses.slice(0, 5).map((b, i) => (
-            <div class="company-row">
-              <h3>{b.href ? <a href={b.href}>{b.name}</a> : b.name}</h3>
-              {b.href && <span aria-hidden="true">↗</span>}
-            </div>
-          ))
-        }<p class="small muted" style="margin-top:20px">
-          View all ten concerns in the group overview.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section class="section" style="background:#e9eee5">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">04 / OUR FOOTPRINT</p><h2>
-            Presence in Bangladesh.
-          </h2>
-        </div><a class="text-link" href="/contact/#locations"
-          >Offices & warehouse <span aria-hidden="true">↗</span></a>
-      </div><div class="location-grid">
-        {
-          company.locations.map((l) => (
-            <div class="location">
-              <>
-                <p class="eyebrow">{l.name}</p>
-                <h3>{l.city}</h3>
-                <address>{l.address}</address>
-              </>
-            </div>
-          ))
-        }
-      </div><p class="small muted" style="margin-top:25px">
-        Locations as published in the current company profile. Please call
-        before visiting.
-      </p>
-    </div>
-  </section>
-  <section class="section">
-    <div class="wrap split">
-      <div>
-        <p class="eyebrow">05 / THE PEOPLE BEHIND THE GROUP</p><h2>
-          A business built<br />on relationships.
-        </h2><p class="muted">
-          Monir Group’s current profile dates the business to 2005. Today, it
-          presents a broad portfolio for business buyers.
-        </p><a class="text-link" href="/about/"
-          >About Monir Group <span aria-hidden="true">↗</span></a>
+          Meet the leaders named in Monir Group’s current company profile.
+        </p><a class="text-link" href="/about/#leadership"
+          >More about our leadership ↗</a
+        ><div class="people-note">
+          <img src={company.logo} alt="" width="76" height="76" /><p>
+            Trade. Agriculture. Nutrition.<br /><strong
+              >Monir Group, Bangladesh.</strong>
+          </p>
+        </div>
       </div><div class="leaders">
         {
           company.leaders.map((l) => (
             <figure class="leader">
               <>
-                <img
-                  src={l.image}
-                  width="450"
-                  height="567"
-                  alt={l.name}
-                  loading="lazy"
-                />
+                <div class="portrait-frame">
+                  <img
+                    src={l.image}
+                    width="450"
+                    height="567"
+                    alt={l.name}
+                    loading="lazy"
+                  />
+                </div>
                 <figcaption>
                   <>
-                    <h3>{l.name}</h3>
                     <p>{l.title}</p>
+                    <h3>{l.name}</h3>
                   </>
                 </figcaption>
               </>
@@ -192,18 +267,72 @@ import businesses from '../content/businesses/companies.json';
         }
       </div>
     </div>
+  </section>
+  <section class="section home-presence">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">OUR PRESENCE</p><h2>
+            Here in Bangladesh.<br /><span class="green-text"
+              >Ready for a conversation.</span>
+          </h2>
+        </div><a class="text-link" href="/contact/#locations"
+          >View contact details ↗</a>
+      </div><div class="presence-grid">
+        {
+          company.locations.map((l) => (
+            <a class="presence-card" href="/contact/#locations">
+              <>
+                <p class="eyebrow">{l.name}</p>
+                <h3>{l.city}</h3>
+                <p>{l.address}</p>
+                <span class="presence-arrow" aria-hidden="true">
+                  ↗
+                </span>
+              </>
+            </a>
+          ))
+        }
+      </div>
+    </div>
   </section><CTA />
 </Layout>
-
 <script>
-const video=document.querySelector<HTMLVideoElement>('#hero-video')!;
-const toggle=document.querySelector<HTMLButtonElement>('#hero-video-toggle')!;
-const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-const connection=(navigator as Navigator & {connection?:{saveData?:boolean}}).connection;
-function sync(){toggle.textContent=video.paused?'Play background video':'Pause background video'}
-async function play(){if(!video.getAttribute('src'))video.src=video.dataset.src!;try{await video.play()}catch{video.pause()}sync()}
-toggle.hidden=false;toggle.addEventListener('click',()=>{if(video.paused)void play();else video.pause()});
-video.addEventListener('play',sync);video.addEventListener('pause',sync);video.addEventListener('error',()=>{video.removeAttribute('src');video.load();toggle.hidden=true});
-reduced.addEventListener('change',()=>{if(reduced.matches)video.pause()});
-if(!reduced.matches&&!connection?.saveData)void play();
+  const video = document.querySelector<HTMLVideoElement>('#hero-video')!;
+  const toggle =
+    document.querySelector<HTMLButtonElement>('#hero-video-toggle')!;
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  const connection = (
+    navigator as Navigator & { connection?: { saveData?: boolean } }
+  ).connection;
+  function sync() {
+    toggle.textContent = video.paused
+      ? 'Play background video'
+      : 'Pause background video';
+  }
+  async function play() {
+    if (!video.getAttribute('src')) video.src = video.dataset.src!;
+    try {
+      await video.play();
+    } catch {
+      video.pause();
+    }
+    sync();
+  }
+  toggle.hidden = false;
+  toggle.addEventListener('click', () => {
+    if (video.paused) void play();
+    else video.pause();
+  });
+  video.addEventListener('play', sync);
+  video.addEventListener('pause', sync);
+  video.addEventListener('error', () => {
+    video.removeAttribute('src');
+    video.load();
+    toggle.hidden = true;
+  });
+  reduced.addEventListener('change', () => {
+    if (reduced.matches) video.pause();
+  });
+  if (!reduced.matches && !connection?.saveData) void play();
 </script>

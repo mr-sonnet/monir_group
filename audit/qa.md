@@ -33,3 +33,13 @@ The homepage now uses the exact first current-site slider video, downloaded loca
 All 55 catalog products now display their corresponding current-site images, optimized as local WebP copies; priority detail pages and related-product cards use the same mapping. Source URLs and reuse instruction are recorded in `audit/added-media.json`. This supersedes earlier notes saying product images/video were hidden.
 
 33 browser tests pass across Chromium, Edge and mobile emulation, including video play/pause/resume, reduced-motion behavior, every product image, detail-image matching, catalog search and quote-flow regressions. Desktop/mobile screenshots were reviewed. Original WordPress remains unchanged.
+
+## 2026-09-29 — visual redesign
+
+Rebuilt the header, utility bar, video hero, product-family cards, company-logo gallery, featured products, sourcing section, leadership, locations, CTA and footer using the original green/gold identity. Inner pages share the revised typography, image-backed introductions and form treatment. Added original-site logos for all ten concerns; provenance is in design-refresh-media.json.
+
+Validation: 30 functional/media/responsive tests passed across Chromium, Edge and mobile. Three accessibility/navigation tests passed after removing decorative low-contrast location numbers. Visible-image checks exclude intentionally hidden responsive decoration; the separate catalog suite still checks all 55 product images. No broken internal references among 774 checks. Desktop/mobile home and contact screenshots inspected.
+
+Build environment limitation: Windows Application Control blocks the installed Astro 7 Rolldown native binding. The WebAssembly fallback also fails on this machine. For this static review archive, source was compiled and checked using a temporary local Astro 5.18.2 / @astrojs/check 0.9.6 / TypeScript 5.9.3 toolchain. The repository package.json and lockfile retain the original Astro 7.3.5 dependencies; no dependency downgrade is committed. The older local compiler is not deployed as a server or dependency. A clean build with the pinned Astro 7 toolchain remains to be verified in a compatible environment. Do not use the temporary older compiler for production server deployment; npm reports advisories for that toolchain.
+
+The review remains owner-private and noindex, and the inquiry form remains an explicit non-sending demo. The live WordPress site and domain were not modified.

@@ -1,11 +1,18 @@
+---
+import { company } from '../data/company';
+---
+
 <section class="cta-band">
   <div class="wrap">
-    <div>
-      <p class="eyebrow">LET’S TALK SUPPLY</p><h2>Tell us what you need.</h2><p>
-        Share a product, quantity and delivery location to start a specific
-        conversation.
-      </p>
-    </div><a class="btn dark" href="/contact/"
-      >Request a Quote <span aria-hidden="true">↗</span></a>
+    <div class="cta-symbol" aria-hidden="true">↗</div><div>
+      <p class="eyebrow">YOUR NEXT REQUIREMENT STARTS HERE</p><h2>
+        Good business begins<br />with a conversation.
+      </h2>
+    </div><div class="cta-actions">
+      <a class="btn dark" href="/contact/"
+        >Request a Quote <span class="button-arrow" aria-hidden="true">↗</span
+        ></a
+      ><a href={company.phone.href}>Or call {company.phone.display}</a>
+    </div>
   </div>
 </section>

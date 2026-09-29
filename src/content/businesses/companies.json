@@ -4,69 +4,79 @@
     "id": 1,
     "status": "owner-review",
     "href": null,
-    "focus": null
+    "focus": null,
+    "image": "/media/monir-group/concern-1.webp"
   },
   {
     "name": "Monir Poultry Feed Industries Limited",
     "id": 2,
     "status": "owner-review",
     "href": "/monir-poultry-feed-industries-limited/",
-    "focus": "Poultry, cattle and fish feed"
+    "focus": "Poultry, cattle and fish feed",
+    "image": "/media/monir-group/concern-2.webp"
   },
   {
     "name": "Monir Export Import Trading Ltd.",
     "id": 3,
     "status": "owner-review",
     "href": null,
-    "focus": null
+    "focus": null,
+    "image": "/media/monir-group/concern-3.webp"
   },
   {
     "name": "Mahi International",
     "id": 4,
     "status": "owner-review",
     "href": null,
-    "focus": null
+    "focus": null,
+    "image": "/media/monir-group/concern-4.webp"
   },
   {
     "name": "Sadman Green Agro",
     "id": 5,
     "status": "owner-review",
     "href": null,
-    "focus": null
+    "focus": null,
+    "image": "/media/monir-group/concern-5.webp"
   },
   {
     "name": "M.M Poultry Feed & Fish Feed",
     "id": 6,
     "status": "owner-review",
     "href": null,
-    "focus": null
+    "focus": null,
+    "image": "/media/monir-group/concern-6.webp"
   },
   {
     "name": "Muskan Trading Corporation",
     "id": 7,
     "status": "owner-review",
     "href": null,
-    "focus": null
+    "focus": null,
+    "image": "/media/monir-group/concern-7.webp"
   },
   {
     "name": "Mow Trading",
     "id": 8,
     "status": "owner-review",
     "href": null,
-    "focus": null
+    "focus": null,
+    "image": "/media/monir-group/concern-8.webp"
   },
   {
     "name": "Raiyan Global Trade Link",
     "id": 9,
     "status": "owner-review",
     "href": null,
-    "focus": null
+    "focus": null,
+    "image": "/media/monir-group/concern-9.webp"
   },
   {
     "name": "Nusrat Enterprise",
     "id": 10,
     "status": "owner-review",
     "href": null,
-    "focus": null
+    "focus": null,
+    "image": "/media/monir-group/concern-10.webp"
   }
 ]

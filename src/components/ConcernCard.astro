@@ -1,0 +1,26 @@
+---
+interface Props {
+  company: any;
+}
+const { company: b } = Astro.props;
+---
+
+<article class="concern-card">
+  <div class="concern-logo">
+    <img
+      src={b.image}
+      width="440"
+      height="320"
+      alt={`${b.name} logo`}
+      loading="lazy"
+    />
+  </div><div class="concern-caption">
+    <h3>{b.href ? <a href={b.href}>{b.name}</a> : b.name}</h3>{
+      b.href && (
+        <a class="round-link" href={b.href} aria-label={`View ${b.name}`}>
+          ↗
+        </a>
+      )
+    }
+  </div>
+</article>

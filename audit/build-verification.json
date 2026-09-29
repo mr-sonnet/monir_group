@@ -1,21 +1,21 @@
 {
   "htmlPages": 25,
-  "internalReferencesChecked": 540,
+  "internalReferencesChecked": 774,
   "brokenReferences": [],
   "media": {
-    "files": 4,
-    "rawBytes": 107912,
-    "gzipBytes": 107594
+    "files": 73,
+    "rawBytes": 6296371,
+    "gzipBytes": 6296375
   },
   "javascript": {
     "files": 1,
-    "rawBytes": 5013,
-    "gzipBytes": 2114
+    "rawBytes": 5060,
+    "gzipBytes": 2141
   },
   "css": {
     "files": 1,
-    "rawBytes": 14447,
-    "gzipBytes": 3870
+    "rawBytes": 39837,
+    "gzipBytes": 8893
   },
   "lab": [
     {
@@ -25,10 +25,10 @@
         "height": 1000
       },
       "conditions": "Unthrottled local production preview, Chromium. Single run; not field Core Web Vitals.",
-      "lcp": 84,
+      "lcp": 128,
       "cls": 0,
-      "domContentLoaded": 16.30000001192093,
-      "load": 18
+      "domContentLoaded": 22.5,
+      "load": 129.80000001192093
     },
     {
       "label": "mobile",
@@ -37,10 +37,10 @@
         "height": 844
       },
       "conditions": "Unthrottled local production preview, Chromium. Single run; not field Core Web Vitals.",
-      "lcp": 68,
-      "cls": 0,
-      "domContentLoaded": 12.099999994039536,
-      "load": 13.300000011920929
+      "lcp": 124,
+      "cls": 0.00013730893307911738,
+      "domContentLoaded": 14.399999976158142,
+      "load": 129.89999997615814
     }
   ]
 }

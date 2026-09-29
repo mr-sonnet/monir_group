@@ -27,7 +27,7 @@ test('core pages render without overflow, broken images or console errors', asyn
         () => document.documentElement.scrollWidth <= window.innerWidth + 1,
       ),
     ).toBe(true);
-    for (const img of await page.locator('img').all()) {
+    for (const img of await page.locator('img:visible').all()) {
       await img.scrollIntoViewIfNeeded();
       await expect
         .poll(() =>

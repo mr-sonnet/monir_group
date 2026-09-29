@@ -2,44 +2,35 @@
 import Layout from '../layouts/Layout.astro';
 import Intro from '../components/Intro.astro';
 import CTA from '../components/CTA.astro';
+import ConcernCard from '../components/ConcernCard.astro';
 import businesses from '../content/businesses/companies.json';
 ---
 
 <Layout
   title="Our businesses"
-  description="Explore the ten concerns listed under Monir Group, including Monir Poultry Feed Industries Limited."
+  description="Explore the ten concerns listed under Monir Group."
   ><Intro
-    eyebrow="OUR BUSINESSES"
-    title="The businesses of Monir Group."
-    description="The current group website lists these ten concerns. Explore the available company information or contact the group about a specific requirement."
-  />
-  <section class="section">
-    <div class="wrap split">
-      <aside>
-        <p class="eyebrow">THE GROUP PORTFOLIO</p><h2>
-          Connected by<br />Monir Group.
-        </h2><p class="muted">
-          Each name below is preserved from the current site. For
-          company-specific inquiries, please identify the concern when you
-          contact us.
-        </p><a class="btn dark" href="/contact/?type=company"
-          >Contact the Group ↗</a>
-      </aside><div class="company-list">
-        {
-          businesses.map((b, i) => (
-            <div class="company-row">
-              <div>
-                <h3>{b.href ? <a href={b.href}>{b.name}</a> : b.name}</h3>
-                {b.focus && <p>{b.focus}</p>}
-              </div>
-              {b.href && (
-                <a href={b.href} aria-label={`View ${b.name}`}>
-                  <span aria-hidden="true">↗</span>
-                </a>
-              )}
-            </div>
-          ))
-        }
+    eyebrow="OUR SISTER CONCERNS"
+    title="A group of distinct identities."
+    description="Meet the businesses listed under Monir Group, including our trading and feed-related concerns."
+  /><section class="section group-home">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">THE MONIR GROUP FAMILY</p><h2>
+            Individual businesses.<br />A shared connection.
+          </h2>
+        </div><p class="muted">
+          For company-specific inquiries, identify the concern when you contact
+          the group.
+        </p>
+      </div><div class="concern-grid">
+        {businesses.map((b) => <ConcernCard company={b} />)}
+      </div><div class="section-bottom">
+        <a class="btn dark" href="/contact/?type=company"
+          >Contact the Group <span class="button-arrow" aria-hidden="true"
+            >↗</span
+          ></a>
       </div>
     </div>
   </section><CTA /></Layout
