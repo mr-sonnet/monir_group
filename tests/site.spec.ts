@@ -75,7 +75,7 @@ test('catalog has 55 entries; search aliases, categories and empty state work', 
     'pulses',
   );
 });
-test('product quote carries selection and completes only as an explicit demo', async ({
+test('product quote prepares correct WhatsApp and email messages', async ({
   page,
 }) => {
   await page.goto('/products/?q=DCP');
@@ -86,7 +86,7 @@ test('product quote carries selection and completes only as an explicit demo', a
   await expect(page.locator('#selected-product')).toContainText(
     'Dicalcium Phosphate',
   );
-  await page.getByRole('button', { name: 'Test inquiry' }).click();
+  await page.getByRole('button', { name: 'Prepare inquiry' }).click();
   await expect(page.getByLabel('Contact name')).toHaveAttribute(
     'aria-invalid',
     'true',
@@ -94,14 +94,32 @@ test('product quote carries selection and completes only as an explicit demo', a
   await page.getByLabel('Contact name').fill('Test Buyer');
   await page.getByLabel('Email', { exact: true }).fill('buyer@example.com');
   await page.locator('#consent').check();
-  await page.getByRole('button', { name: 'Test inquiry' }).click();
-  await expect(page.locator('#form-status')).toContainText('has not been sent');
+  await page.getByRole('button', { name: 'Prepare inquiry' }).click();
+  await expect(page.locator('#form-status')).toContainText(
+    'Your inquiry is ready',
+  );
   await expect(page.locator('#inquiry-summary')).toContainText(
     'Dicalcium Phosphate (DCP)',
   );
   await expect(page.locator('#inquiry-summary')).toContainText(
     'buyer@example.com',
   );
+  const whatsapp = new URL(
+    (await page.locator('#send-inquiry-whatsapp').getAttribute('href'))!,
+  );
+  expect(whatsapp.origin + whatsapp.pathname).toBe(
+    'https://wa.me/8801711966411',
+  );
+  expect(whatsapp.searchParams.get('text')).toContain(
+    'Dicalcium Phosphate (DCP)',
+  );
+  expect(whatsapp.searchParams.get('text')).toContain('buyer@example.com');
+  const email = new URL(
+    (await page.locator('#send-inquiry-email').getAttribute('href'))!,
+  );
+  expect(email.pathname).toBe('mdmonirgroupbd@gmail.com');
+  expect(email.searchParams.get('body')).toContain('Test Buyer');
+  await expect(page.locator('#email-send-hint')).toContainText('Click Send');
 });
 test('phone-only general inquiry works; offline failure retains entries', async ({
   page,
@@ -116,12 +134,14 @@ test('phone-only general inquiry works; offline failure retains entries', async 
     .fill('Question about a group concern');
   await page.locator('#consent').check();
   await context.setOffline(true);
-  await page.getByRole('button', { name: 'Test inquiry' }).click();
+  await page.getByRole('button', { name: 'Prepare inquiry' }).click();
   await expect(page.locator('#form-status')).toContainText('offline');
   await expect(page.getByLabel('Contact name')).toHaveValue('Sample Buyer');
   await context.setOffline(false);
-  await page.getByRole('button', { name: 'Test inquiry' }).click();
-  await expect(page.locator('#form-status')).toContainText('Demo complete');
+  await page.getByRole('button', { name: 'Prepare inquiry' }).click();
+  await expect(page.locator('#form-status')).toContainText(
+    'Your inquiry is ready',
+  );
 });
 test('invalid contact and missing product/message are blocked; honeypot rejects', async ({
   page,
@@ -130,7 +150,7 @@ test('invalid contact and missing product/message are blocked; honeypot rejects'
   await page.getByLabel('Contact name').fill('Test');
   await page.getByLabel('Email', { exact: true }).fill('bad-address');
   await page.locator('#consent').check();
-  await page.getByRole('button', { name: 'Test inquiry' }).click();
+  await page.getByRole('button', { name: 'Prepare inquiry' }).click();
   await expect(page.locator('#email')).toHaveAttribute('aria-invalid', 'true');
   await expect(page.locator('#product')).toHaveAttribute(
     'aria-invalid',
@@ -141,7 +161,7 @@ test('invalid contact and missing product/message are blocked; honeypot rejects'
   await page.locator('#website').evaluate((el: HTMLInputElement) => {
     el.value = 'spam.example';
   });
-  await page.getByRole('button', { name: 'Test inquiry' }).click();
+  await page.getByRole('button', { name: 'Prepare inquiry' }).click();
   await expect(page.locator('#form-status')).toContainText(
     'could not be processed',
   );

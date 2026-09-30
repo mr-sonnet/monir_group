@@ -1,0 +1,3 @@
+import {chromium} from '@playwright/test';
+const browser=await chromium.launch();
+for(const width of [1440,390]){const page=await browser.newPage({viewport:{width,height:900}});await page.goto('http://127.0.0.1:4321/about/#leadership');await page.locator('.leadership-message').first().screenshot({path:`audit/leadership-${width}.png`});await page.goto('http://127.0.0.1:4321/contact/?product=Maize');await page.locator('#name').fill('Example Buyer');await page.locator('#email').fill('buyer@example.com');await page.locator('#consent').check();await page.locator('#submit-quote').click();await page.locator('#inquiry-review').scrollIntoViewIfNeeded();await page.screenshot({path:`audit/inquiry-ready-${width}.png`});await page.close();}await browser.close();

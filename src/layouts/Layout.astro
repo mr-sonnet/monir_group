@@ -54,7 +54,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
           <a href={`mailto:${company.email.value}`} data-event="email_click"
             ><span aria-hidden="true">✉</span> {company.email.value}</a
           ><a href={company.phone.href} data-event="phone_click"
-            ><span aria-hidden="true">☎</span> {company.phone.display}</a>
+            ><span aria-hidden="true">☎</span> {company.phone.display}</a
+          >
         </div>
       </div>
     </div>
@@ -80,7 +81,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         </nav><a class="btn" href="/contact/"
           >Request a Quote <span class="button-arrow" aria-hidden="true"
             >↗</span
-          ></a>
+          ></a
+        >
       </div>
     </header>
     <main id="main"><slot /></main>
@@ -101,9 +103,15 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
               class="footer-email"
               data-event="email_click"
               href={`mailto:${company.email.value}`}>{company.email.value}</a
+            ><a
+              class="footer-email"
+              href={company.whatsapp.href}
+              target="_blank"
+              rel="noopener noreferrer">Chat on WhatsApp ↗</a
             ><p>Head office<br />South Salna, Gazipur, Bangladesh</p><a
               class="text-link"
-              href="/contact/#locations">All offices & warehouse ↗</a>
+              href="/contact/#locations">All offices & warehouse ↗</a
+            >
           </div><div>
             <h3>Discover Monir Group</h3><div class="footer-links">
               {
@@ -119,14 +127,15 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
                   <a href={`/products/?category=${c.id}`}>{c.name}</a>
                 ))
               }<a href="/monir-poultry-feed-industries-limited/"
-                >Poultry, cattle & fish feed</a>
+                >Poultry, cattle & fish feed</a
+              >
             </div>
           </div>
         </div><div class="footer-bottom">
           <span>© {new Date().getFullYear()} Monir Group. Bangladesh.</span
-          ><span
-            >Private review · Details pending confirmation · Demo inquiries</span
-          ><a href="/privacy-policy/">Privacy & data use</a>
+          ><span>Trade · Agriculture · Nutrition</span><a
+            href="/privacy-policy/">Privacy & data use</a
+          >
         </div>
       </div>
     </footer>
@@ -159,5 +168,6 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
             ),
           ),
         );
-    </script></body>
+    </script></body
+  >
 </html>

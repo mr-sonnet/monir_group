@@ -13,7 +13,20 @@ const { product: p, index = 0 } = Astro.props;
   data-category={p.category}
   data-search={`${p.name} ${p.aliases.join(' ')}`.toLowerCase()}
 >
-  {p.image && <div class="product-image"><img src={p.image} alt={p.name} width="720" height="540" loading="lazy" decoding="async" /></div>}
+  {
+    p.image && (
+      <div class="product-image">
+        <img
+          src={p.image}
+          alt={p.name}
+          width="720"
+          height="540"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    )
+  }
   <p class="eyebrow">{categories.find((c) => c.id === p.category)?.name}</p><h3>
     {p.hasDetail ? <a href={`/products/${p.slug}/`}>{p.name}</a> : p.name}
   </h3><div class="product-bottom">

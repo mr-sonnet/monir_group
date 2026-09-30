@@ -9,13 +9,13 @@
   },
   "javascript": {
     "files": 1,
-    "rawBytes": 5060,
-    "gzipBytes": 2141
+    "rawBytes": 5879,
+    "gzipBytes": 2392
   },
   "css": {
     "files": 1,
-    "rawBytes": 39837,
-    "gzipBytes": 8893
+    "rawBytes": 41149,
+    "gzipBytes": 9139
   },
   "lab": [
     {
@@ -25,10 +25,10 @@
         "height": 1000
       },
       "conditions": "Unthrottled local production preview, Chromium. Single run; not field Core Web Vitals.",
-      "lcp": 128,
+      "lcp": 136,
       "cls": 0,
-      "domContentLoaded": 22.5,
-      "load": 129.80000001192093
+      "domContentLoaded": 18.19999998807907,
+      "load": 137.19999998807907
     },
     {
       "label": "mobile",
@@ -37,10 +37,10 @@
         "height": 844
       },
       "conditions": "Unthrottled local production preview, Chromium. Single run; not field Core Web Vitals.",
-      "lcp": 124,
+      "lcp": 112,
       "cls": 0.00013730893307911738,
-      "domContentLoaded": 14.399999976158142,
-      "load": 129.89999997615814
+      "domContentLoaded": 14.099999964237213,
+      "load": 127.79999995231628
     }
   ]
 }

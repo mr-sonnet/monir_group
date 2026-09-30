@@ -14,7 +14,7 @@ export interface Quote {
   website: string;
 }
 export type QuoteResult =
-  | { mode: 'demo'; message: string }
+  | { mode: 'direct'; message: string; emailUrl: string; whatsappUrl: string }
   | { mode: 'live'; message: string };
 export function validateQuote(q: Quote): Record<string, string> {
   const errors: Record<string, string> = {};
@@ -44,6 +44,7 @@ export function validateQuote(q: Quote): Record<string, string> {
 export async function submitQuote(
   q: Quote,
   endpoint = '',
+  recipient = 'mdmonirgroupbd@gmail.com',
 ): Promise<QuoteResult> {
   if (q.website)
     throw new Error(
@@ -56,11 +57,37 @@ export async function submitQuote(
       'You appear to be offline. Your entries are still here. Reconnect and try again.',
     );
   if (!endpoint) {
-    await new Promise((resolve) => setTimeout(resolve, 400));
+    const body = [
+      ['Inquiry type', q.inquiryType],
+      ['Product', q.product],
+      ['Quantity', [q.quantity, q.unit].filter(Boolean).join(' ')],
+      ['Delivery location', q.location],
+      ['Company', q.company],
+      ['Contact name', q.name],
+      ['Phone', q.phone],
+      ['Email', q.email],
+      ['Preferred reply', q.reply],
+      ['Requirements', q.message],
+    ]
+      .filter(([, value]) => value)
+      .map(([label, value]) => label + ': ' + value)
+      .join('\n\n');
     return {
-      mode: 'demo',
+      mode: 'direct',
       message:
-        'Demo complete — your inquiry has not been sent. No sales team has received these details. You can review them below, or call or email the group directly.',
+        'Your inquiry is ready. Choose WhatsApp or email below, then send the prepared message to our team.',
+      whatsappUrl:
+        'https://wa.me/8801711966411?text=' +
+        encodeURIComponent('Monir Group inquiry\n\n' + body),
+      emailUrl:
+        'mailto:' +
+        recipient +
+        '?subject=' +
+        encodeURIComponent(
+          'Monir Group inquiry: ' + (q.product || q.inquiryType),
+        ) +
+        '&body=' +
+        encodeURIComponent(body),
     };
   }
   const response = await fetch(endpoint, {

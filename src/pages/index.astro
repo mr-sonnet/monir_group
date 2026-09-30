@@ -54,7 +54,8 @@ const featured = [
                 aria-hidden="true">↗</span
               ></a
             ><a class="hero-quote" href="/contact/"
-              >Request a Quote <span aria-hidden="true">→</span></a>
+              >Request a Quote <span aria-hidden="true">→</span></a
+            >
           </div>
         </div><div class="hero-side">
           <span>MONIR GROUP</span><span>BANGLADESH</span>
@@ -64,7 +65,8 @@ const featured = [
           id="hero-video-toggle"
           type="button"
           class="video-toggle"
-          hidden>Play background video</button>
+          hidden>Play background video</button
+        >
       </div>
     </div>
   </section>
@@ -119,12 +121,14 @@ const featured = [
           />
         </div><div class="about-caption">
           <span class="caption-mark" aria-hidden="true">MG</span><span
-            >Rooted in Bangladesh.<br />Connected through trade.</span>
+            >Rooted in Bangladesh.<br />Connected through trade.</span
+          >
         </div>
       </div><div class="about-copy">
         <p class="eyebrow">GET TO KNOW MONIR GROUP</p><h2>
           Many businesses.<br />One shared <span class="green-text"
-            >ambition.</span>
+            >ambition.</span
+          >
         </h2><p class="lead">
           A Bangladesh-based group bringing together trading, agricultural
           commodities and feed-related businesses.
@@ -145,7 +149,8 @@ const featured = [
         </div><a class="btn dark" href="/about/"
           >Discover Our Story <span class="button-arrow" aria-hidden="true"
             >↗</span
-          ></a>
+          ></a
+        >
       </div>
     </div>
   </section>
@@ -154,15 +159,17 @@ const featured = [
       <div class="section-head centered">
         <p class="eyebrow">OUR SISTER CONCERNS</p><h2>
           Individual identities.<br /><span class="green-text"
-            >A collective purpose.</span>
-        </h2><p class="muted">Meet the businesses listed under Monir Group.</p>
+            >A collective purpose.</span
+          >
+        </h2><p class="muted">Meet the businesses of Monir Group.</p>
       </div><div class="concern-grid">
         {businesses.map((b) => <ConcernCard company={b} />)}
       </div><div class="section-bottom">
         <a class="btn dark" href="/sister-concerns/"
           >Explore Our Businesses <span class="button-arrow" aria-hidden="true"
             >↗</span
-          ></a>
+          ></a
+        >
       </div>
     </div>
   </section>
@@ -172,14 +179,16 @@ const featured = [
         <div>
           <p class="eyebrow">OUR PRODUCT PORTFOLIO</p><h2>
             Materials that keep<br /><span class="green-text"
-              >business moving.</span>
+              >business moving.</span
+            >
           </h2>
         </div><div>
           <p class="muted">
             Explore ingredients and commodities for feed production,
             agricultural trade and related supply needs.
           </p><a class="text-link" href="/products/"
-            >View the full catalog <span aria-hidden="true">↗</span></a>
+            >View the full catalog <span aria-hidden="true">↗</span></a
+          >
         </div>
       </div><div class="catalog-grid featured-grid">
         {featured.map((p, i) => <ProductCard product={p} index={i} />)}
@@ -201,7 +210,8 @@ const featured = [
           >Discuss Your Requirement <span
             class="button-arrow"
             aria-hidden="true">↗</span
-          ></a>
+          ></a
+        >
       </div><ol class="process">
         <li>
           <span class="num">01</span><div>
@@ -232,13 +242,14 @@ const featured = [
         <p class="eyebrow">THE PEOPLE BEHIND THE GROUP</p><h2>
           Leadership with<br />a shared <span class="green-text">vision.</span>
         </h2><p class="muted">
-          Meet the leaders named in Monir Group’s current company profile.
+          Meet the people guiding Monir Group’s vision and development.
         </p><a class="text-link" href="/about/#leadership"
           >More about our leadership ↗</a
         ><div class="people-note">
           <img src={company.logo} alt="" width="76" height="76" /><p>
             Trade. Agriculture. Nutrition.<br /><strong
-              >Monir Group, Bangladesh.</strong>
+              >Monir Group, Bangladesh.</strong
+            >
           </p>
         </div>
       </div><div class="leaders">
@@ -274,10 +285,12 @@ const featured = [
         <div>
           <p class="eyebrow">OUR PRESENCE</p><h2>
             Here in Bangladesh.<br /><span class="green-text"
-              >Ready for a conversation.</span>
+              >Ready for a conversation.</span
+            >
           </h2>
         </div><a class="text-link" href="/contact/#locations"
-          >View contact details ↗</a>
+          >View contact details ↗</a
+        >
       </div><div class="presence-grid">
         {
           company.locations.map((l) => (

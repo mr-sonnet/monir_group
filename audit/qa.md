@@ -43,3 +43,11 @@ Validation: 30 functional/media/responsive tests passed across Chromium, Edge an
 Build environment limitation: Windows Application Control blocks the installed Astro 7 Rolldown native binding. The WebAssembly fallback also fails on this machine. For this static review archive, source was compiled and checked using a temporary local Astro 5.18.2 / @astrojs/check 0.9.6 / TypeScript 5.9.3 toolchain. The repository package.json and lockfile retain the original Astro 7.3.5 dependencies; no dependency downgrade is committed. The older local compiler is not deployed as a server or dependency. A clean build with the pinned Astro 7 toolchain remains to be verified in a compatible environment. Do not use the temporary older compiler for production server deployment; npm reports advisories for that toolchain.
 
 The review remains owner-private and noindex, and the inquiry form remains an explicit non-sending demo. The live WordPress site and domain were not modified.
+
+## 2026-09-30 — customer-facing copy and direct inquiries
+
+Removed visible demo/private-review notes from pages. Company names, leadership titles and contact locations were approved by the owner. Added both leadership messages from the original About page, preserving wording except the undated 40% growth sentence. Source archive: leadership-source.json.
+
+The inquiry form now prepares WhatsApp messages for +8801711966411 and email messages to mdmonirgroupbd@gmail.com. The original monirenterprise999@gmail.com remains an additional email contact. Visitors send in the destination app; no automatic-delivery claim is made. Hostinger SMTP is deferred by the owner. Privacy text reflects this flow. Site access remains owner-only and the WordPress domain is unchanged.
+
+Validation: 33/33 browser tests passed (Chromium, Edge and mobile), including exact recipient/product/contact payload assertions, validation, offline retention, honeypot, navigation, images and automated accessibility. Desktop/mobile leadership and prepared-inquiry screenshots visually checked. Local build and Astro check pass with the previously documented temporary compatible compiler; pinned Astro 7 clean-build verification remains pending on a compatible machine. No real messages were sent during tests.

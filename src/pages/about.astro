@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Intro from '../components/Intro.astro';
 import CTA from '../components/CTA.astro';
+import messages from '../data/leadership-messages.json';
 import { company } from '../data/company';
 ---
 
@@ -21,15 +22,16 @@ import { company } from '../data/company';
         </h2>
       </div><div>
         <p class="lead">
-          Monir Group’s current company profile states that operations began in
-          2005. Today, its portfolio spans maize, soybean products, fish meal,
-          feed additives, grains, flours, rice and pulses.
+          Monir Group began operations in 2005. Today, its portfolio spans
+          maize, soybean products, fish meal, feed additives, grains, flours,
+          rice and pulses.
         </p><p class="muted">
-          The group’s published footprint includes offices in Gazipur, Dinajpur
-          and Jamalpur, and a warehouse in Gazipur. Its concerns bring together
-          trading and feed-related activity.
+          The group has offices in Gazipur, Dinajpur and Jamalpur, and a
+          warehouse in Gazipur. Its concerns bring together trading and
+          feed-related activity.
         </p><a class="text-link" href="/sister-concerns/"
-          >Explore the group’s businesses ↗</a>
+          >Explore the group’s businesses ↗</a
+        >
       </div>
     </div>
   </section>
@@ -69,41 +71,49 @@ import { company } from '../data/company';
       </div>
     </div>
   </section>
-  <section class="section" id="leadership">
-    <div class="wrap split">
-      <div>
-        <p class="eyebrow">LEADERSHIP</p><h2>
-          The people behind<br />Monir Group.
-        </h2><p class="muted">
-          Leadership names and roles are presented as listed in the current
-          company profile.
-        </p><p class="notice">
-          This private review uses existing-site portraits. Current titles and
-          permission for reuse remain subject to owner confirmation.
-        </p>
-      </div><div class="leaders">
-        {
-          company.leaders.map((l) => (
-            <figure class="leader">
-              <>
-                <img
-                  src={l.image}
-                  width="450"
-                  height="567"
-                  alt={l.name}
-                  loading="lazy"
-                />
-                <figcaption>
-                  <>
-                    <h3>{l.name}</h3>
-                    <p>{l.title}</p>
-                  </>
-                </figcaption>
-              </>
-            </figure>
-          ))
-        }
-      </div>
+  <section class="section leadership-messages" id="leadership">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">OUR LEADERSHIP</p><h2>
+            A message from<br />our leadership.
+          </h2>
+        </div><p class="muted">The values and vision behind Monir Group.</p>
+      </div>{
+        company.leaders.map((leader, i) => (
+          <article class="leadership-message" id={messages[i].id}>
+            <>
+              <figure>
+                <>
+                  <img
+                    src={leader.image}
+                    alt={leader.name}
+                    width="450"
+                    height="567"
+                    loading="lazy"
+                  />
+                  <figcaption>
+                    <>
+                      <p class="eyebrow">{leader.title}</p>
+                      <h3>{leader.name}</h3>
+                    </>
+                  </figcaption>
+                </>
+              </figure>
+              <div class="message-copy">
+                <h3>Message from the {leader.title}</h3>
+                {messages[i].paragraphs.map((p) => (
+                  <p>{p}</p>
+                ))}
+                <p class="message-signature">
+                  {leader.name}
+                  <span>{leader.title}, Monir Group</span>
+                </p>
+              </div>
+            </>
+          </article>
+        ))
+      }
     </div>
   </section><CTA /></Layout
 >
